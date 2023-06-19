@@ -1,0 +1,84 @@
+$colorLink: #48657c;
+
+header{
+    width: 100%;
+    padding: 15px 80px;
+    backdrop-filter: blur(16px);
+    backdrop-filter: blur(3px);
+    background-color: rgba(234, 237, 240, 0.8);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgb(223, 227, 231);
+
+    @media screen and (max-width: 575px){
+        padding: 13px 0px;
+    }
+
+    .logo{
+        img{
+            width: 110px;
+
+            @media screen and (max-width: 575px){
+                width: 100%;
+            }
+        }
+    }
+
+    .menu{
+
+        display: flex;
+        gap: 25px;
+        align-items: center;
+
+        .links{
+            display: flex;
+            gap: 25px;
+
+            a{
+                text-decoration: none;
+                color: $colorLink;
+            }
+        }
+
+        .social{
+            display: flex;
+            gap: 15px;
+
+            i{
+                color: $colorLink;
+                font-size: 1.5rem;
+            }
+        }
+
+        .mobileMenu{
+            outline: none;
+            border: none;
+            background: #fff;
+            padding: 8px 13px;
+            border-radius: 12px;
+            font-size: 1.5rem;
+            
+        }
+    }
+
+}
+
+.bodyMenuMobile{
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    margin-top: 5rem;
+    padding: 20px;
+    height: calc(100% - 5rem);
+    z-index: 9999;
+
+    .links{
+        a{
+            display: block;
+            text-decoration: none;
+            color: $colorLink;
+            margin-bottom: 15px;
+        }
+    }
+}
