@@ -82,3 +82,18 @@ $colorBannerFondo: #ddd4d5;
         }
     }
 }
+.bannerMobile{
+    background: $colorBannerFondo;
+    padding: 25px;
+    border-radius: 0 0 20px 20px;
+
+    h4{
+        font-weight: 400;
+    }
+    h5{
+        line-height: 1.6rem;
+        span{
+            color: #2E6634;
+        }
+    }
+}

@@ -40,7 +40,20 @@ const Home = () => {
                             Tu tarjetero virtual en tu celular, conecta a personas con tus servicios y hagamos networking entre negocios.
                         </h5>
                     </div>
-
+                </div>
+            </div>
+            <div className='container-fluid bannerMobile d-block d-lg-none'>
+                <div>
+                    <h4>Por qué es un tarjetero.</h4>
+                    <p>
+                        Digitalizamos el concepto de ordenar, en una sola herramienta, todas las tarjetas de tus principales proveedores, y puedas consultar sus datos, de forma fácil y accesible en tu celular. Convertirse en digital signi ica mejorar la forma en que administras tus contactos de negocios. 
+                    </p>
+                    <h5 className='mt-5'>
+                        <span>Te invitamos a conocer:</span> <br/>
+                        la tarjeta digital, <br/>
+                        la tarjeta física con NFC <br/>
+                        y el tarjetero digital Tarjet. <br/>
+                    </h5>
                 </div>
             </div>
 
