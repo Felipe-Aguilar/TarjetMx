@@ -1,5 +1,6 @@
 $colorRosa: #d8bfbe;
 $colorBannerFondo: #ddd4d5;
+$colorVerdeLimon: #aac02f;
 
 $cardAzul: #dcecf2;
 $cardAmarilla: #f2f5dc;
@@ -9,6 +10,7 @@ $btnVerde: #3C8144;
 $btnVioleta: #696D9C;
 $btnNaranja: #C56A36;
 
+// BannerVideo
 .bannerVideo{
     background: $colorBannerFondo;
     margin-top: 77.4px;
@@ -106,6 +108,7 @@ $btnNaranja: #C56A36;
     }
 }
 
+// Cards
 .cards{
     padding: 40px 0;
     width: 80%;
@@ -234,5 +237,118 @@ $btnNaranja: #C56A36;
 
     .cardVioleta{
         background: $cardVioleta;
+    }
+}
+
+// Tarjeta digital
+.tarjeta{
+    width: 80%;
+    padding: 40px 0;
+
+    @media screen and (max-width: 575px){
+        width: 95%;
+    }
+
+    .cuerpo{
+        padding: 20px;
+        border-radius: 25px;
+    }
+}
+.TarjetaDigital{
+    .cuerpo{
+        background: $cardAzul;
+    }
+}
+
+// btnSolicita
+.btnSolicita{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 575px){
+        width: 100%;
+    }
+
+    a{
+        text-decoration: none;
+        color: #fff;
+        background: $btnVerde;
+        border-radius: 8px;
+        padding: 10px 50px;
+
+        @media screen and (max-width: 575px){
+            text-align: center;
+        }
+    }
+}
+
+// Tarjeta física
+.TarjetaFisica{
+    .cuerpo{
+        background: $cardAmarilla;
+    }
+    .buttons{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+
+        @media screen and (max-width: 575px){
+            display: block;
+            width: 100%;
+        }
+        
+        a{
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 50px;
+            border-radius: 8px;
+            text-align: center;
+
+            @media screen and (max-width: 575px){
+                font-size: 0.9rem;
+
+            }
+        }
+        .btnNaranja{
+            background: $btnNaranja;
+            display: flex;
+            align-items: center;
+
+            @media screen and (max-width: 575px){
+                margin-bottom: 25px;
+                justify-content: center;
+            }
+
+        }
+        .btnAzul{
+            background: $btnAzul;
+
+            span{
+                color: #E8BC28;
+            }
+
+            @media screen and (max-width: 575px){
+                display: block;
+            }
+        }
+    }
+}
+
+// Banner Celulares
+.bannerCelulares{
+    background: $colorVerdeLimon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    
+    .cuerpo{
+        width: 60%;
+
+        @media screen and (max-width: 575px){
+            width: 100%;
+        }
     }
 }

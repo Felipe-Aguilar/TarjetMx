@@ -19,6 +19,9 @@ import NetworkIcono from '../assets/icono-tarjet-networking.svg';
 import EscapaIcono from '../assets/icono-tarjet-tienda.svg';
 import OrdenadoIcono from '../assets/icono-tarjet-ordencontacto.svg';
 import BuscadorIcono from '../assets/icono-tarjet-buscador.svg';
+import BannerCafe from '../assets/mi-tarjet-entregacafe.webp';
+import BannerCafeMobile from '../assets/mi-tarjet-cafeteria-mobile.webp';
+import Celulares from '../assets/mi-tarjet-celulares.webp';
 
 const Home = () => {
 
@@ -759,6 +762,53 @@ const Home = () => {
                     </div>
                 </div>
 
+            </div>
+
+            {/* Banner Imagen */}
+            <div className='d-none d-lg-block container-fluid p-0'>
+                <img src={BannerCafe} alt="Banner TarjetMx" className='img-fluid'/>
+            </div>
+            <div className='d-block d-md-none container-fluid p-0'>
+                <img src={BannerCafeMobile} alt="Banner TarjetMx" className='img-fluid'/>
+            </div>
+
+            {/* Tarjeta Digital */}
+            <div className='container-fluid TarjetaDigital tarjeta'>
+                <div className='cuerpo'>
+                    <h2>La tarjeta digital Tarjet</h2>
+                </div>
+            </div>
+
+            {/* btnSolicita */}
+            <div className='container-fluid btnSolicita'>
+                <a href="">
+                    Solicita gratuitamente tu tarjeta digital Tarjet
+                </a>
+            </div>
+
+            {/* Tarjeta física */}
+            <div className='container-fluid TarjetaFisica tarjeta'>
+                <div className='cuerpo'>
+                    <h2>La tarjeta física Tarjet, con NFC</h2>
+
+                </div>
+                <div className='buttons'>
+                    <a href="" className='btnNaranja'>
+                        Compra tu Tarjeta física con nfc Tarjet
+                    </a>
+                    <a href="" className='btnAzul'>
+                        <span>También contamos con planes corporativos.</span><br/>
+                        Solicita información para empresas
+                    </a>
+
+                </div>
+            </div>
+
+            {/* Banner 3 celulares */}
+            <div className='container-fluid bannerCelulares'>
+                <div className='cuerpo'>
+                    <img src={Celulares} alt="Tarjet muestras de perfil" className='img-fluid'/>
+                </div>
             </div>
 
         </>
