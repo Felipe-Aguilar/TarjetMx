@@ -111,7 +111,7 @@ $btnNaranja: #C56A36;
     width: 80%;
 
     @media screen and (max-width: 1024px){
-        width: 80%;
+        width: 97%;
     }
 
     .card{
@@ -123,7 +123,8 @@ $btnNaranja: #C56A36;
         height: 760px;
 
         @media screen and (max-width: 575px){
-            width: 40%!important;
+            width: 95%!important;
+            height: 790px;
             display: block!important;
             margin: auto!important;
         }
