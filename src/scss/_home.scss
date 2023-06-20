@@ -1,6 +1,14 @@
 $colorRosa: #d8bfbe;
 $colorBannerFondo: #ddd4d5;
 
+$cardAzul: #C2DAE4;
+$cardAmarilla: #C9DE8C;
+$cardVioleta: #9493CF;
+$btnAzul: #00748B;
+$btnVerde: #3C8144;
+$btnVioleta: #696D9C;
+$btnNaranja: #C56A36;
+
 .bannerVideo{
     background: $colorBannerFondo;
     margin-top: 77.4px;
@@ -95,5 +103,97 @@ $colorBannerFondo: #ddd4d5;
         span{
             color: #2E6634;
         }
+    }
+}
+
+.cards{
+    padding: 40px 0;
+    width: 80%;
+
+    .card{
+        background: $cardAzul;
+        padding: 25px;
+        width: 31%;
+        border: none;
+        border-radius: 25px;
+        height: 760px;
+
+        .title{
+            margin-bottom: 25px;
+            h4{
+                text-align: center;
+            }
+        }
+
+        .body{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 30px;
+
+            img{
+                width: 50px;
+            }
+            p{
+                span{
+                    font-size: 1.1rem;
+                }
+                margin-bottom: 0;
+            }
+        }
+
+        .buttons{
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            a{
+                color: #fff;
+                padding: 10px 15px;
+                border-radius: 8px;
+                text-decoration: none;
+            }
+            .btnAzul{
+                background: $btnAzul;
+            }
+            .btnVerde{
+                background: $btnVerde;
+            }
+            .btnVioleta{
+                background: $btnVioleta;
+                span{
+                    color: #E8BC28;
+                }
+            }
+            .btnNaranja{
+                background: $btnNaranja;
+            }
+        }
+
+        .buttonsB{
+            display: block;
+            width: calc(100% - 25px);
+            margin: auto;
+            a{
+                display: block;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .cardAmarilla{
+        background: $cardAmarilla;
+    }
+
+    .cardVioleta{
+        background: $cardVioleta;
     }
 }
