@@ -1,9 +1,9 @@
 $colorRosa: #d8bfbe;
 $colorBannerFondo: #ddd4d5;
 
-$cardAzul: #C2DAE4;
-$cardAmarilla: #C9DE8C;
-$cardVioleta: #9493CF;
+$cardAzul: #dcecf2;
+$cardAmarilla: #f2f5dc;
+$cardVioleta: #dfdef2;
 $btnAzul: #00748B;
 $btnVerde: #3C8144;
 $btnVioleta: #696D9C;
@@ -115,6 +115,23 @@ $btnNaranja: #C56A36;
         overflow: hidden;
     }
 
+    .cardsMobile{
+        @media screen and (max-width: 1024px){
+            display: none!important;
+        }
+        @media screen and (max-width: 575px){
+            display: block!important;
+        }
+    }
+    .cardsTablet{
+        @media screen and (max-width: 1024px){
+            display: block!important;
+        }
+        @media screen and (max-width: 575px){
+            display: none!important;
+        }
+    }
+
     .card{
         background: $cardAzul;
         padding: 25px;
@@ -122,6 +139,12 @@ $btnNaranja: #C56A36;
         border: none;
         border-radius: 25px;
         height: 760px;
+
+        @media screen and (max-width: 1024px){
+            width: 95%!important;
+            display: block;
+            margin: auto;
+        }
 
         @media screen and (max-width: 575px){
             width: 97%!important;
