@@ -320,7 +320,7 @@ const Home = () => {
                     </motion.div>
                 </div>
 
-                <div className='d-block d-lg-none'>
+                {/* <div className='d-block d-lg-none'>
                     <div>
                         <Slider {...settingsCards}>
                             <div className='card'>
@@ -531,7 +531,7 @@ const Home = () => {
                             </div>
                         </Slider>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
