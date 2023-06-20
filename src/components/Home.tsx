@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-// import Slider from 'react-slick';
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import VideoBanner from '../assets/vdcabezaltarjet1080p.mp4';
 import VideoBannerMobile from '../assets/vdcabezaltarjetmovil1080p.mp4';
@@ -31,13 +31,13 @@ const Home = () => {
     }
 
     // Settings Sliders Cards
-    // const settingsCards = {
-    //     dots: true,
-    //     infinite: true,
-    //     speed: 500,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1
-    // }
+    const settingsCards = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    }
 
     return ( 
         <>
@@ -320,7 +320,7 @@ const Home = () => {
                     </motion.div>
                 </div>
 
-                {/* <div className='d-block d-lg-none'>
+                <div className='d-block d-lg-none'>
                     <div>
                         <Slider {...settingsCards}>
                             <div className='card'>
@@ -531,7 +531,7 @@ const Home = () => {
                             </div>
                         </Slider>
                     </div>
-                </div> */}
+                </div>
 
             </div>
 
