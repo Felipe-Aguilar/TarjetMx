@@ -111,7 +111,7 @@ $btnNaranja: #C56A36;
     width: 80%;
 
     @media screen and (max-width: 1024px){
-        width: 92%;
+        width: 90%;
     }
 
     .card{
@@ -123,7 +123,7 @@ $btnNaranja: #C56A36;
         height: 760px;
 
         @media screen and (max-width: 575px){
-            width: 95%!important;
+            width: 100%!important;
             height: 790px;
             display: block!important;
             margin: auto!important;
@@ -170,6 +170,10 @@ $btnNaranja: #C56A36;
                 padding: 10px 15px;
                 border-radius: 8px;
                 text-decoration: none;
+
+                @media screen and (max-width: 575px){
+                    font-size: 0.9rem;
+                }
             }
             .btnAzul{
                 background: $btnAzul;
