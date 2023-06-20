@@ -93,7 +93,7 @@ $btnNaranja: #C56A36;
 .bannerMobile{
     background: $colorBannerFondo;
     padding: 25px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 25px 25px;
 
     h4{
         font-weight: 400;
@@ -110,6 +110,10 @@ $btnNaranja: #C56A36;
     padding: 40px 0;
     width: 80%;
 
+    @media screen and (max-width: 1024px){
+        width: 100%;
+    }
+
     .card{
         background: $cardAzul;
         padding: 25px;
@@ -117,6 +121,12 @@ $btnNaranja: #C56A36;
         border: none;
         border-radius: 25px;
         height: 760px;
+
+        @media screen and (max-width: 575px){
+            width: 90%!important;
+            display: block!important;
+            margin: auto!important;
+        }
 
         .title{
             margin-bottom: 25px;
