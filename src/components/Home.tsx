@@ -69,13 +69,38 @@ const Home = () => {
     // Settings Slide Tarjeta Digital Mobile
     const settingsTDMobile = {
         dots: true,
-        arrows: true,
+        arrows: false,
         infinite: true,
         autoplaySpeed: 6000,
         autoplay: true,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            }
+        },
+        {
+            breakpoint: 575,
+            settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+            }
+        }
+        ]
     }
+    // const settingsTDTablet = {
+    //     dots: true,
+    //     arrows: false,
+    //     infinite: true,
+    //     autoplaySpeed: 6000,
+    //     autoplay: true,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 3
+    // }
 
     return ( 
         <>
