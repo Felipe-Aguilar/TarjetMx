@@ -1,6 +1,7 @@
 $colorRosa: #d8bfbe;
 $colorBannerFondo: #ddd4d5;
 $colorVerdeLimon: #aac02f;
+$colorTextoAzul: #006e96;
 
 $cardAzul: #dcecf2;
 $cardAmarilla: #f2f5dc;
@@ -403,7 +404,157 @@ $btnNaranja: #C56A36;
 // Tarjeta física
 .TarjetaFisica{
     .cuerpo{
-        background: $cardAmarilla;
+        background: #F0F6E0;
+
+        .block1{
+            display: flex;
+            align-items: center;
+
+            h2{
+                font-weight: 700;
+                line-height: 25px;
+    
+                span{
+                    font-size: 1.0rem;
+                }
+            }
+            video{
+
+                width: 50%;
+                display: block;
+                margin: auto;
+            }
+
+            .funciona{
+                display: flex;
+                align-items: center;
+                padding: 20px 0;
+
+                h6{
+                    color: $colorTextoAzul;
+                }
+
+                .icons{
+                    display: flex;
+                    flex-direction: column;
+
+                    > * + * {
+                        margin-top: 6px;
+                    }
+
+                    .icon{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+
+                        img{
+                            width: 50px;
+                        }
+
+                        p{
+                            font-size: 0.9rem;
+                            margin-bottom: 0;
+                            span{
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .diferencia{
+                .title{
+                    display: flex;
+                    justify-content: center;
+                    padding: 20px 0;
+
+                    h6{
+                        color: $colorTextoAzul;
+                    }
+                }
+
+                .icons{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .icon{
+                        width: 25%;
+                        
+                        img{
+                            width: 60%;
+                            display: block;
+                            margin: auto;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            text-align: center;
+                            font-size: 0.9rem;
+
+                            span{
+                                font-size: 0.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .block2{
+            .title{
+                padding: 20px 0;
+                text-align: center;
+
+                h5{
+                    color: $colorTextoAzul;
+                }
+                p{
+                    margin: 0;
+                    font-size: 0.9rem;
+                    color: #727176;
+
+                    a{
+                        text-decoration: underline;
+                        color: #727176;
+                    }
+                }
+            }
+            .graficos{
+                display: flex;
+                
+                .grafico{
+                    // background-repeat: no-repeat!important;
+                    // background-size: cover!important;
+                    // background-position: center right!important;
+                    // width: 20%;
+                    // height: 250px;
+                    // padding: 10px;
+                    
+                    // display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+
+                    position: relative;
+                    width: 50%;
+                    height: 500px;
+                    background: #32557f;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        width: 0;
+                        height: 0;
+                        border: 13px solid transparent;
+                        border-left-color: #32557f;
+                        border-right: 0;
+                        margin-top: -13px;
+                        margin-right: -13px;
+                    }
+                }
+            }
+        }
+
     }
     .buttons{
         margin-top: 40px;
