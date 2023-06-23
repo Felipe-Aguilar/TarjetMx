@@ -520,37 +520,45 @@ $btnNaranja: #C56A36;
             }
             .graficos{
                 display: flex;
+                justify-content: center;
                 
                 .grafico{
-                    // background-repeat: no-repeat!important;
-                    // background-size: cover!important;
-                    // background-position: center right!important;
-                    // width: 20%;
-                    // height: 250px;
+                    background-repeat: no-repeat!important;
+                    background-size: cover!important;
+                    background-position: center right!important;
+                    width: 20%;
+                    height: 250px;
                     // padding: 10px;
                     
-                    // display: flex;
-                    // justify-content: center;
-                    // align-items: center;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
 
-                    position: relative;
-                    width: 50%;
-                    height: 500px;
-                    background: #32557f;
+                    .body{
+                        width: 84%;
+                        background: $colorTextoAzul;
 
-                    &::after {
-                        content: '';
-                        position: absolute;
-                        right: 0;
-                        top: 50%;
-                        width: 0;
-                        height: 0;
-                        border: 13px solid transparent;
-                        border-left-color: #32557f;
-                        border-right: 0;
-                        margin-top: -13px;
-                        margin-right: -13px;
+                        img{
+                            width: 50%;
+                            display: block;
+                            margin: auto;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            color: #fff;
+                            text-align: center;
+                        }
+                        .description{
+                            font-size: 0.8rem;
+                        }
                     }
+                    .bodyB{
+                        background: transparent;
+                    }
+                }
+
+                .graficoB{
+                    background-position: center center;
                 }
             }
         }
@@ -617,6 +625,219 @@ $btnNaranja: #C56A36;
 
         @media screen and (max-width: 575px){
             width: 100%;
+        }
+    }
+}
+
+// Tarjetero Digital
+.TarjeteroDigital{
+    .cuerpo{
+        background: #ebe9f6;
+        
+        .block1{
+            display: flex;
+            align-items: end;
+            h2{
+                font-weight: 700;
+                line-height: 25px;
+    
+                span{
+                    font-size: 1.0rem;
+                }
+            }
+
+            .icons{
+                display: flex;
+                justify-content: space-between;
+
+                .icon{
+                    width: 45%;
+                    img{
+                        width: 70px;
+                        display: block;
+                        margin: auto;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+            .image{
+                img{
+                    width: 90%;
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+
+        .block2{
+            display: flex;
+            justify-content: center;
+            padding: 50px 0;
+            gap: 20px;
+
+            div{
+                width: 50%;
+            }
+
+            a{
+                padding: 5px;
+                text-align: center;
+                border-radius: 8px;
+                text-decoration: none;
+                color: #fff;
+                display: block;
+            }
+            p{
+                font-size: 14.4px;
+                text-align: center;
+                color: #727176;
+                margin: 0;
+                margin-top: 5px;
+            }
+            .btnMorado{
+                background: $btnVioleta;
+            }
+            .btnNaranja{
+                background: $btnNaranja;
+            }
+        }
+
+        .block3{
+            display: flex;
+            img{
+                width: 70%;
+                display: block;
+                margin: auto;
+            }
+            h6{
+                text-align: center;
+                font-size: 1.1rem;
+            }
+            a{
+                display: block;
+                margin-top: 25px;
+                padding: 10px 10px;
+                border-radius: 8px;
+                color: #fff;
+                background: $btnVerde;
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+
+        @media screen and (max-width: 575px){
+            h2{
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 30px;
+                text-align: center;
+
+                span{
+                    font-size: 20px;
+                    line-height: 27px;
+                }
+            }
+            p{
+                margin-top: 30px;
+                text-align: center;
+            }
+
+            .icon{
+                img{
+                    width: 40%;
+                    display: block;
+                    margin: auto;
+                }
+            }
+            .banner{
+                display: block;
+                margin-top: 50px;
+
+                img{
+                    width: 100%;
+                    
+                }
+            }
+
+            .block2{
+                display: block;
+            }
+            .text{
+                h6{
+                    font-size: 1.1rem;
+                    text-align: center;
+                }
+                p{
+                    text-align: left;
+                }
+                a{
+                    background: $btnVioleta;
+                    text-decoration: none;
+                    color: #fff;
+                    display: block;
+                    text-align: center;
+                    padding: 10px 0;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+}
+
+// Btn Contáctanos
+.Contacto{
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 575px){
+        display: block;
+    }
+    
+    .btnContactanos{
+        a{
+            padding: 10px 50px;
+            text-decoration: none;
+            background: $btnVioleta;
+            color: #fff;
+            border-radius: 100px;
+
+            @media screen and (max-width: 575px){
+                display: block;
+                margin: auto;
+                width: 60%;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+// Preguntas Frecuentes
+.PreguntasFrecuentes{
+    .cuerpo{
+        background: #d7e3f4;
+
+        h6{
+            @media screen and (max-width: 575px){
+                text-align: center;
+            }
+        }
+
+        ul{
+            list-style: none;
+        }
+        p{
+            margin-top: 10px;
+
+            @media screen and (max-width: 575px){
+                text-align: center;
+            }
+            span{
+                font-size: 0.9rem;
+            }
         }
     }
 }
