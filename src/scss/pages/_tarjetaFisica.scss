@@ -1,0 +1,222 @@
+$colorRosa: #d8bfbe;
+$colorBannerFondo: #ddd4d5;
+$colorVerdeLimon: #aac02f;
+$colorTextoAzul: #006e96;
+
+$cardAzul: #dcecf2;
+$cardAmarilla: #f2f5dc;
+$cardVioleta: #dfdef2;
+$btnAzul: #00748B;
+$btnVerde: #3C8144;
+$btnVioleta: #696D9C;
+$btnNaranja: #C56A36;
+
+.TarjetaFisica{
+    .cuerpo{
+        background: #F0F6E0;
+
+        .block1{
+            display: flex;
+            align-items: center;
+
+            h2{
+                font-weight: 700;
+                line-height: 25px;
+    
+                span{
+                    font-size: 1.0rem;
+                }
+            }
+            video{
+
+                width: 50%;
+                display: block;
+                margin: auto;
+            }
+
+            .funciona{
+                display: flex;
+                align-items: center;
+                padding: 20px 0;
+
+                h6{
+                    color: $colorTextoAzul;
+                }
+
+                .icons{
+                    display: flex;
+                    flex-direction: column;
+
+                    > * + * {
+                        margin-top: 6px;
+                    }
+
+                    .icon{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+
+                        img{
+                            width: 50px;
+                        }
+
+                        p{
+                            font-size: 0.9rem;
+                            margin-bottom: 0;
+                            span{
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .diferencia{
+                .title{
+                    display: flex;
+                    justify-content: center;
+                    padding: 20px 0;
+
+                    h6{
+                        color: $colorTextoAzul;
+                    }
+                }
+
+                .icons{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .icon{
+                        width: 25%;
+                        
+                        img{
+                            width: 60%;
+                            display: block;
+                            margin: auto;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            text-align: center;
+                            font-size: 0.9rem;
+
+                            span{
+                                font-size: 0.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .block2{
+            .title{
+                padding: 20px 0;
+                text-align: center;
+
+                h5{
+                    color: $colorTextoAzul;
+                }
+                p{
+                    margin: 0;
+                    font-size: 0.9rem;
+                    color: #727176;
+
+                    a{
+                        text-decoration: underline;
+                        color: #727176;
+                    }
+                }
+            }
+            .graficos{
+                display: flex;
+                justify-content: center;
+                
+                .grafico{
+                    background-repeat: no-repeat!important;
+                    background-size: cover!important;
+                    background-position: center right!important;
+                    width: 20%;
+                    height: 250px;
+                    // padding: 10px;
+                    
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+
+                    .body{
+                        width: 84%;
+                        background: $colorTextoAzul;
+
+                        img{
+                            width: 50%;
+                            display: block;
+                            margin: auto;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            color: #fff;
+                            text-align: center;
+                        }
+                        .description{
+                            font-size: 0.8rem;
+                        }
+                    }
+                    .bodyB{
+                        background: transparent;
+                    }
+                }
+
+                .graficoB{
+                    background-position: center center;
+                }
+            }
+        }
+
+    }
+    .buttons{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+
+        @media screen and (max-width: 575px){
+            display: block;
+            width: 100%;
+        }
+        
+        a{
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 50px;
+            border-radius: 8px;
+            text-align: center;
+
+            @media screen and (max-width: 575px){
+                font-size: 0.9rem;
+
+            }
+        }
+        .btnNaranja{
+            background: $btnNaranja;
+            display: flex;
+            align-items: center;
+
+            @media screen and (max-width: 575px){
+                margin-bottom: 25px;
+                justify-content: center;
+            }
+
+        }
+        .btnAzul{
+            background: $btnAzul;
+
+            span{
+                color: #E8BC28;
+            }
+
+            @media screen and (max-width: 575px){
+                display: block;
+            }
+        }
+    }
+}

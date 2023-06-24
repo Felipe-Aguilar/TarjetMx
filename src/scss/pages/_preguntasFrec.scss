@@ -1,0 +1,38 @@
+$colorRosa: #d8bfbe;
+$colorBannerFondo: #ddd4d5;
+$colorVerdeLimon: #aac02f;
+$colorTextoAzul: #006e96;
+
+$cardAzul: #dcecf2;
+$cardAmarilla: #f2f5dc;
+$cardVioleta: #dfdef2;
+$btnAzul: #00748B;
+$btnVerde: #3C8144;
+$btnVioleta: #696D9C;
+$btnNaranja: #C56A36;
+
+.PreguntasFrecuentes{
+    .cuerpo{
+        background: #d7e3f4;
+
+        h6{
+            @media screen and (max-width: 575px){
+                text-align: center;
+            }
+        }
+
+        ul{
+            list-style: none;
+        }
+        p{
+            margin-top: 10px;
+
+            @media screen and (max-width: 575px){
+                text-align: center;
+            }
+            span{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

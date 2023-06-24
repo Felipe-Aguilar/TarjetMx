@@ -1,0 +1,102 @@
+$colorRosa: #d8bfbe;
+$colorBannerFondo: #ddd4d5;
+$colorVerdeLimon: #aac02f;
+$colorTextoAzul: #006e96;
+
+// BannerVideo
+.bannerVideo{
+    background: $colorBannerFondo;
+    margin-top: 77.4px;
+    display: flex;
+    height: calc(100vh - 77.4px);
+    justify-content: center;
+    @media screen and (max-width: 1024px){
+        padding: 0;
+    }
+
+    .video{
+        display: flex;
+        position: absolute;
+        width: auto;
+        height: calc(100vh - 77.4px);
+        justify-content: center;
+
+        @media screen and (max-width: 1024px){
+            display: none;
+        }
+
+        video{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .contenido{
+            position: absolute;
+            width: 40%;
+            bottom: 0;
+            left: 0;
+            padding: 0 20px;
+
+            h1{
+                font-size: 1.3rem;
+                font-weight: bold;
+            }
+
+            .green{
+                background: #a2d40a;
+                margin-top: 25px;
+                padding: 50px;
+                border-radius: 50px 50px 0 0;
+
+                h5{
+                    font-weight: 400;
+                }
+                h6{
+                    line-height: 1.6rem;
+                    span{
+                        color: #2E6634;
+                    }
+                }
+            }
+        }
+    }
+
+    .videoMobile{
+        justify-content: center;
+        overflow: hidden;
+
+        video{
+            // width: 100%;     
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .contenido{
+            position: absolute;
+            bottom: 0;
+            padding: 25px;
+            text-align: center;
+
+            h5{
+                font-weight: 400;
+            }
+        }
+    }
+}
+.bannerMobile{
+    background: $colorBannerFondo;
+    padding: 25px;
+    border-radius: 0 0 25px 25px;
+
+    h4{
+        font-weight: 400;
+    }
+    h5{
+        line-height: 1.6rem;
+        span{
+            color: #2E6634;
+        }
+    }
+}

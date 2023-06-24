@@ -1,0 +1,131 @@
+// Cards
+.cards{
+    padding: 40px 0;
+    width: 80%;
+
+    @media screen and (max-width: 1024px){
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .cardsMobile{
+        @media screen and (max-width: 1024px){
+            display: none!important;
+        }
+        @media screen and (max-width: 575px){
+            display: block!important;
+        }
+    }
+    .cardsTablet{
+        @media screen and (max-width: 1024px){
+            display: block!important;
+        }
+        @media screen and (max-width: 575px){
+            display: none!important;
+        }
+    }
+
+    .card{
+        background: $cardAzul;
+        padding: 25px;
+        width: 31%;
+        border: none;
+        border-radius: 25px;
+        height: 760px;
+
+        @media screen and (max-width: 1024px){
+            width: 95%!important;
+            display: block;
+            margin: auto;
+        }
+
+        @media screen and (max-width: 575px){
+            width: 97%!important;
+            height: 790px;
+            display: block!important;
+            margin: auto!important;
+        }
+
+        .title{
+            margin-bottom: 25px;
+            h4{
+                text-align: center;
+            }
+        }
+
+        .body{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 30px;
+
+            img{
+                width: 50px;
+            }
+            p{
+                span{
+                    font-size: 1.1rem;
+                }
+                margin-bottom: 0;
+            }
+        }
+
+        .buttons{
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            a{
+                color: #fff;
+                padding: 10px 15px;
+                border-radius: 8px;
+                text-decoration: none;
+
+                @media screen and (max-width: 575px){
+                    font-size: 0.9rem;
+                }
+            }
+            .btnAzul{
+                background: $btnAzul;
+            }
+            .btnVerde{
+                background: $btnVerde;
+            }
+            .btnVioleta{
+                background: $btnVioleta;
+                span{
+                    color: #E8BC28;
+                }
+            }
+            .btnNaranja{
+                background: $btnNaranja;
+            }
+        }
+
+        .buttonsB{
+            display: block;
+            width: calc(100% - 25px);
+            margin: auto;
+            a{
+                display: block;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .cardAmarilla{
+        background: $cardAmarilla;
+    }
+
+    .cardVioleta{
+        background: $cardVioleta;
+    }
+}

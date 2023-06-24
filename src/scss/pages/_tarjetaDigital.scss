@@ -1,0 +1,131 @@
+$colorRosa: #d8bfbe;
+$colorBannerFondo: #ddd4d5;
+$colorVerdeLimon: #aac02f;
+$colorTextoAzul: #006e96;
+
+$cardAzul: #dcecf2;
+$cardAmarilla: #f2f5dc;
+$cardVioleta: #dfdef2;
+$btnAzul: #00748B;
+$btnVerde: #3C8144;
+$btnVioleta: #696D9C;
+$btnNaranja: #C56A36;
+
+.TarjetaDigital{
+    .cuerpo{
+        background: #F0F9F9;
+        
+        .block1{
+            display: flex;
+            justify-content: space-between;
+
+            h2{
+                font-weight: 700;
+                line-height: 25px;
+    
+                span{
+                    font-size: 1.0rem;
+                }
+            }
+    
+            .text{
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            video{
+                width: 50%;
+                display: block;
+                margin: auto;
+            }
+        }
+
+        .block2{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            
+            .iconBlock{
+                width: 20%;
+                // padding: 0 3px;
+            }
+
+            img{
+                width: 70px;
+                display: block;
+                margin: auto;
+                margin-bottom: 15px;
+            }
+            .title{
+                text-align: center;
+            }
+            .description{
+                font-size: 0.9rem;
+                line-height: 17px;
+                margin-bottom: 0;
+            }
+        }
+
+        @media screen and (max-width: 1024px){
+            h2{
+                font-weight: 700;
+                text-align: center;
+
+                span{
+                    font-size: 1.5rem;
+                }
+            }
+            video{
+                width: 100%;
+                margin: 30px 0;
+            }
+            p{
+                text-align: center;
+            }
+            .iconBlock{
+                margin-top: 10px;
+                img{
+                    width: 40%;
+                    display: block;
+                    margin: auto;
+                    margin-bottom: 10px;
+                }
+                .title{
+                    text-align: center;
+                }
+            }
+        }
+
+        @media screen and (max-width: 575px){
+            h2{
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 27px;
+                text-align: center;
+
+                span{
+                    font-size: 20px;
+                    line-height: 27px;
+                }
+            }
+
+            video{
+                width: 100%;
+                margin: 30px 0;
+            }
+
+            .iconBlock{
+                img{
+                    width: 20%;
+                    display: block;
+                    margin: auto;
+                    margin-bottom: 10px;
+                }
+                .title{
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+}
