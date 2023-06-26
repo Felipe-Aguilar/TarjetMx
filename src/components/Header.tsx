@@ -54,7 +54,10 @@ const Header = () => {
                         <div className='menu'>
                             <button className='mobileMenu' onClick={()=>setButton(!button)}>
                                 { !button ?
-                                    <i className="bi bi-list"></i>
+                                    <>
+                                        MENÚ
+                                        {/* <i className="bi bi-dash-lg"></i> */}
+                                    </>
                                 :
                                     <i className="bi bi-x"></i>
                                 }

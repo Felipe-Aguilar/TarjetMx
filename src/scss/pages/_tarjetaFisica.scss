@@ -129,7 +129,7 @@ $btnNaranja: #C56A36;
             }
             .graficos{
                 display: flex;
-                justify-content: center;
+                justify-content: space-between;
                 
                 .grafico{
                     background-repeat: no-repeat!important;
@@ -168,6 +168,33 @@ $btnNaranja: #C56A36;
 
                 .graficoB{
                     background-position: center center;
+                }
+
+                .bubble {
+                    position: relative;
+                    background: #006e96;
+                    color: #FFFFFF;
+                    font-family: Arial;
+                    font-size: 20px;
+                    line-height: 120px;
+                    text-align: center;
+                    width: 250px;
+                    height: 181px;
+                    border-radius: 0px;
+                    padding: 0px;
+                }
+                .bubble:after {
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    width: 0;
+                    z-index: 1;
+                    border-style: solid;
+                    border-color: transparent #006e96;
+                    border-width: 35px 0 35px 30px;
+                    top: 50%;
+                    right: -30px;
+                    margin-top: -35px;
                 }
             }
         }

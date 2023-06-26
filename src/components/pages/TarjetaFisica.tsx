@@ -196,34 +196,15 @@ const TarjetaFisica = () => {
                             </p>
                         </div>
                         <div className='graficos'>
-                            <div 
-                                className='grafico'
-                                style={{background: `url(${graficos.a})`}}
-                            >
-                                <div className='body'>
-                                    <img src={IconPaso1} alt="Icon Tarjet"/>
-                                    <p>
-                                        Paso 1
-                                    </p>
-                                    <p className='description'>
-                                        Selecciona la cantidad de tarjetas físicas Tarjet que necesitas.
-                                    </p>
-                                </div>
+                            <div className='bubble'>
+                                <p>
+                                    Content 1
+                                </p>
                             </div>
-
-                            <div 
-                                className='grafico graficoB'
-                                style={{background: `url(${graficos.b})`}}
-                            >
-                                <div className='body bodyB'>
-                                    <img src={IconPaso1} alt="Icon Tarjet"/>
-                                    <p>
-                                        Paso 1
-                                    </p>
-                                    <p className='description'>
-                                        Selecciona la cantidad de tarjetas físicas Tarjet que necesitas.
-                                    </p>
-                                </div>
+                            <div className='bubble bb2'>
+                                <p>
+                                    Content 1
+                                </p>
                             </div>
                         </div>
                     </div>
