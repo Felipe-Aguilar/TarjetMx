@@ -219,4 +219,84 @@ $btnNaranja: #C56A36;
             }
         }
     }
+
+    @media screen and (max-width: 575px){
+        h2{
+            font-weight: 700;
+            line-height: 25px;
+            text-align: center;
+
+            span{
+                font-size: 1.0rem;
+            }
+        }
+        video{
+            width: 100%;
+        }
+
+        h6{
+            color: $colorTextoAzul;
+            text-align: center;
+            margin-bottom: 1.1rem;
+        }
+
+        .icons{
+            > * + * {
+                margin-top: 20px;
+            }
+            .icon{
+                display: flex;
+                justify-content: space-between;
+                gap: 25px;
+
+                img{
+                    width: 60px;
+                }
+                p{
+                    margin-bottom: 0;
+                }
+            }
+            .noti{
+                justify-content: start;
+                align-items: center;
+            }
+            .info{
+                align-items: start;
+            }
+        }
+
+        .diferencia{
+            h6{
+                margin-top: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+            .icon{
+                img{
+                    width: 40%;
+                    display: block;
+                    margin: auto;
+                    margin-bottom: 20px;
+                }
+                p{
+                    text-align: center;
+
+                    span{
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+
+        .graficos{
+            margin-top: 50px;
+
+            p{
+                text-align: center;
+            }
+            a{
+                text-decoration: underline;
+                color: #272527;
+            }
+        }
+    }
 }

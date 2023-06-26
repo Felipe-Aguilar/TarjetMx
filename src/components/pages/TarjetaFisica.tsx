@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import VideoTarjetaFisica from '../../assets/tarjet-tarjetafisica.mp4';
 import IconAcerca from '../../assets/icono-tarjet-acercartarjeta.svg';
@@ -29,10 +32,21 @@ const TarjetaFisica = () => {
         c: GraficoC
     }
 
+    // Slider mobile 
+    const settingsTFMobile = {
+        dots: true,
+        arrows: false,
+        infinite: true,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    }
+
     return ( 
         <>
             <div className='container-fluid TarjetaFisica tarjeta'>
-                <div className='cuerpo'>
+                <div className='cuerpo d-none d-lg-block'>
 
                     <div className='block1'>
                         <div className='w-50'>
@@ -215,6 +229,131 @@ const TarjetaFisica = () => {
                     </div>
 
                 </div>
+
+                <div className='cuerpo d-block d-lg-none'>
+                    <h2>
+                        La tarjeta física tarjet <br/>
+                        <span>
+                            Reemplaza la necesidad de tarjetas de papel tradicionales y reduce tu huella ambiental.
+                        </span>
+                    </h2>
+                    <video autoPlay muted loop>
+                        <source src={VideoTarjetaFisica} />
+                    </video>
+                    <h6>
+                        Como funciona
+                    </h6>
+
+                    <div className='icons'>
+                        <div className='icon'>
+                            <img src={IconAcerca} alt="tarjet icon" />
+                            <p>
+                                Acerca tu tarjeta tarjet al celular <br/>
+                                <span>
+                                    (Si tu movil no tiene sistema NFC, primero debes abrir la cámara)
+                                </span>
+                            </p>
+                        </div>
+
+                        <div className='icon noti'>
+                            <img src={IconClicNoti} alt="tarjet icon" />
+                            <p>
+                                Haz clic sobre la notificación.
+                            </p>
+                        </div>
+
+                        <div className='icon info'>
+                            <img src={IconSalva} alt="tarjet icon" />
+                            <div>
+                                <p className='mb-3'>
+                                    Y en un instante, se comparte tu información, ya lista para guardarse en los contactos del celular.<br/>
+                                </p>
+                                <p>
+                                    <span>
+                                        Pueden llamarte, enviarte whatsapp, correo, consultar tu ubicación, tus redes y saber sobre tus servicios y productos.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='diferencia'>
+                        <h6>
+                            Diferencia ante una tarjeta tradicional
+                        </h6>
+                        <Slider {...settingsTFMobile} className='d-block'>
+                            <div className='icon'>
+                                <img 
+                                    src={IconAhorra} 
+                                    alt="Tarjet icono" 
+                                />
+                                <p>
+                                    Ahorra Tiempo y Dinero
+                                </p>
+                                <p>
+                                    <span>
+                                        Intercambia y guarda información al instante, actualiza tu perfil las veces que quieras sin imprimir cientos de tarjetas.
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div className='icon'>
+                                <img 
+                                    src={IconContactLess} 
+                                    alt="Tarjet icono" 
+                                />
+                                <p>
+                                    Contactless
+                                </p>
+                                <p>
+                                    <span>
+                                        Con solo acercar la tarjeta al celular se transfiere toda la información
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div className='icon'>
+                                <img 
+                                    src={IconEcologicoAzul} 
+                                    alt="Tarjet icono" 
+                                />
+                                <p>
+                                    Ecológico
+                                </p>
+                                <p>
+                                    <span>
+                                        Ayuda al medio ambiente al reducir tu consumo de papel.
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div className='icon'>
+                                <img 
+                                    src={IconPersoAzul} 
+                                    alt="Tarjet icono" 
+                                />
+                                <p>
+                                    Personalizable
+                                </p>
+                                <p>
+                                    <span>
+                                        Mándanos tu logo, personalizamos tu tarjeta física Tarjet con tu estilo y marca la diferencia.
+                                    </span>
+                                </p>
+                            </div>
+                        </Slider>
+                    </div>
+
+                    <div className='graficos'>
+                        <h6>
+                            Proceso de compra de la tarjeta física Tarjet con NFC
+                        </h6>
+                        <p>
+                            Antes de comprar la tarjeta física, tienes que <a href=""> crear tu perfil Tarjet aquí </a>
+                        </p>
+                    </div>
+                </div>
+
                 <div className='buttons'>
                     <a href="" className='btnNaranja'>
                         Compra tu Tarjeta física con nfc Tarjet
