@@ -11,10 +11,10 @@ import IconAhorra from '../../assets/icono-tarjet-ahorrodinero.svg';
 import IconContactLess from '../../assets/icono-tarjet-contactless.svg';
 import IconEcologicoAzul from '../../assets/icono-tarjet-ecologicoazul.svg';
 import IconPersoAzul from '../../assets/icono-tarjet-tarjetapersonalizableazul.svg';
-import GraficoA from '../../assets/grafico-continua-azul-a.svg';
-import GraficoB from '../../assets/grafico-continua-azul-b.svg';
-import GraficoC from '../../assets/grafico-continua-azul-c.svg';
-import IconPaso1 from '../../assets/icono-tarjet-paso1.svg';
+// import GraficoA from '../../assets/grafico-continua-azul-a.svg';
+// import GraficoB from '../../assets/grafico-continua-azul-b.svg';
+// import GraficoC from '../../assets/grafico-continua-azul-c.svg';
+// import IconPaso1 from '../../assets/icono-tarjet-paso1.svg';
 
 const TarjetaFisica = () => {
 
@@ -26,11 +26,11 @@ const TarjetaFisica = () => {
     }
 
     // Graficos Tarjeta Física
-    const graficos = {
-        a: GraficoA,
-        b: GraficoB,
-        c: GraficoC
-    }
+    // const graficos = {
+    //     a: GraficoA,
+    //     b: GraficoB,
+    //     c: GraficoC
+    // }
 
     // Slider mobile 
     const settingsTFMobile = {
