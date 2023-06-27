@@ -15,6 +15,24 @@ import IconPaso1 from '../../assets/icono-tarjet-paso1.svg';
 import IconPaso2 from '../../assets/icono-tarjet-paso2.svg';
 import IconPaso3 from '../../assets/icono-tarjet-paso3.svg';
 import IconPaso4 from '../../assets/icono-tarjet-paso4.svg';
+import FlechaIzquierda from '../../assets/flecha-izquierda.svg';
+import FlechaDerecha from '../../assets/flecha-derecha.svg';
+
+// Arrows 
+// const rowPrev = (props : any) => {
+//     return(
+//         <div className='props.className' onClick={props.OnClick}>
+//             <img src={FlechaIzquierda} alt="" />
+//         </div>
+//     );
+// }
+// const rowNext = (props : any) => {
+//     return(
+//         <div className='props.className' onClick={props.OnClick}>
+//             <img src={FlechaDerecha} alt="" />
+//         </div>
+//     );
+// }
 
 const TarjetaFisica = () => {
 
@@ -28,12 +46,22 @@ const TarjetaFisica = () => {
     // Slider mobile 
     const settingsTFMobile = {
         dots: true,
-        arrows: false,
+        arrows: true,
         infinite: true,
         autoplaySpeed: 6000,
         autoplay: true,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        prevArrow: (
+            <div className='custom-arrow custom-prev-arrow'>
+                <img src={FlechaIzquierda} className='img-fluid'/>
+            </div>
+        ),
+        nextArrow: (
+            <div className='custom-arrow custom-prev-arrow'>
+                <img src={FlechaDerecha} className='img-fluid'/>
+            </div>
+        )
     }
 
     return ( 
@@ -239,7 +267,7 @@ const TarjetaFisica = () => {
                                     <h6>
                                         Paso 4
                                     </h6>
-                                    <i className="bi bi-arrow-right"></i>
+                                    <i className="bi bi-check"></i>
                                     <p>
                                         Recíbela en tu domicilio. Tu tarjeta física tarjet llegará a la dirección que nos proporcionaste, ya estará lista para que la uses. ¡Es así de fácil!
                                     </p>
@@ -422,7 +450,7 @@ const TarjetaFisica = () => {
                                     <h6>
                                         Paso 4
                                     </h6>
-                                    <i className="bi bi-arrow-right"></i>
+                                    <i className="bi bi-check"></i>
                                     <p>
                                         Recíbela en tu domicilio. Tu tarjeta física tarjet llegará a la dirección que nos proporcionaste, ya estará lista para que la uses. ¡Es así de fácil!
                                     </p>
