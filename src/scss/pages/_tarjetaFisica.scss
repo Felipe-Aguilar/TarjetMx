@@ -130,48 +130,48 @@ $btnNaranja: #C56A36;
             .graficos{
                 display: flex;
                 justify-content: center;    
-                
-                .grafico1{
+                gap: 10px;
+
+                .contenedor{
                     width: 20%;
-                    height: 285px;
-                    background-repeat: no-repeat!important;
-                    background-size: contain!important;
-                    position: relative;
+                    height: 310px;
+                    text-align: center;
+                    padding: 0 15px;
 
-                    .grafico2{
+                    .img{
+                        width: 100%;
+                        height: 130px;
                         display: flex;
-                        background: #006E96;
-                        background: transparent;
-                        width: 86%;
-                        height: 100%;
                         align-items: center;
-                        justify-content: center;
-
-                        img{
-                            width: 50%;
-                            display: block;
-                            margin: auto;
-                        }
-                        h6, p{
-                            color: #fff;
-                            text-align: center;
-                        }
                     }
 
+                    img{
+                        width: 50%;
+                        display: block;
+                        margin: auto;
+                    }
+                    h6,p,i{
+                        color: #fff;
+                    }
+                    i{
+                        margin-bottom: 8px;
+                        font-size: 1.2rem;
+                    }
+                    p{
+                        text-align: center;
+                        font-size: 0.8rem;
+                    }
+                }
+
+                .cn1{
+                    background: #006e96;
+                }
+                .cn2{
+                    background: #3d98b5;
                 }
             }
-            .prueba{
-                position: absolute;
-                left: -20px;    
-            }
-            .prueba2{
-                left: -40px;    
-            }
-            .prueba3{
-                left: -60px;    
-            }
-        }
 
+        }
     }
     .buttons{
         margin-top: 40px;
@@ -296,6 +296,62 @@ $btnNaranja: #C56A36;
             a{
                 text-decoration: underline;
                 color: #272527;
+            }
+
+            .contenedor{
+                width: 20%;
+                height: 310px;
+                text-align: center;
+                padding: 0 15px;
+
+                @media screen and (max-width: 575px){
+                    width: 100%;
+                    height: 410px;
+                }
+
+                .img{
+                    width: 100%;
+                    height: 200px;
+                    display: flex;
+                    align-items: center;
+                }
+
+                img{
+                    width: 50%;
+                    display: block;
+                    margin: auto;
+                }
+                h6,p,i{
+                    color: #fff;
+                }
+                h6{
+                    @media screen and (max-width: 575px){
+                        font-size: 1.4rem;
+                    }
+                }
+                i{
+                    margin-bottom: 8px;
+                    font-size: 1.2rem;
+                    
+                    @media screen and (max-width: 575px){
+                        font-size: 1.7rem;
+                        display: block;
+                    }
+                }
+                p{
+                    text-align: center;
+                    font-size: 0.8rem;
+                    @media screen and (max-width: 575px){
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            .cn1{
+                background: #006e96;
+            }
+            .cn2{
+                background: #3d98b5;
             }
         }
     }

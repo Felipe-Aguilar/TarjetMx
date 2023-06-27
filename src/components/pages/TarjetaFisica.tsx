@@ -11,10 +11,10 @@ import IconAhorra from '../../assets/icono-tarjet-ahorrodinero.svg';
 import IconContactLess from '../../assets/icono-tarjet-contactless.svg';
 import IconEcologicoAzul from '../../assets/icono-tarjet-ecologicoazul.svg';
 import IconPersoAzul from '../../assets/icono-tarjet-tarjetapersonalizableazul.svg';
-import GraficoA from '../../assets/grafico-continua-azul-a.svg';
-import GraficoB from '../../assets/grafico-continua-azul-b.svg';
-import GraficoC from '../../assets/grafico-continua-azul-c.svg';
 import IconPaso1 from '../../assets/icono-tarjet-paso1.svg';
+import IconPaso2 from '../../assets/icono-tarjet-paso2.svg';
+import IconPaso3 from '../../assets/icono-tarjet-paso3.svg';
+import IconPaso4 from '../../assets/icono-tarjet-paso4.svg';
 
 const TarjetaFisica = () => {
 
@@ -23,13 +23,6 @@ const TarjetaFisica = () => {
         initial: {rotate: -180, scale: 0, opacity:0},
         whileInView:{rotate: 0, scale:1, opacity:1},
         viewport: {once:true}
-    }
-
-    // Graficos Tarjeta Física
-    const graficos = {
-        a: GraficoA,
-        b: GraficoB,
-        c: GraficoC
     }
 
     // Slider mobile 
@@ -196,70 +189,60 @@ const TarjetaFisica = () => {
                             </p>
                         </div>
                         <div className='graficos'>
-                            <div 
-                                className='grafico1'
-                                style={{background: `url(${graficos.a})`}}
-                            >
-                                <div className='grafico2'>
-                                    <div>
+                            <div className='contenedor cn1'>
+                                <div>
+                                    <div className='img'>
                                         <img src={IconPaso1} alt="Icon tarjet" />
-                                        <h6>
-                                            Paso 1
-                                        </h6>
-                                        <p>
-                                            Selecciona la cantidad de tarjetas físicas Tarjet que necesitas.
-                                        </p>
                                     </div>
+                                    <h6>
+                                        Paso 1
+                                    </h6>
+                                    <i className="bi bi-arrow-right"></i>
+                                    <p>
+                                        Selecciona la cantidad de tarjetas físicas Tarjet que necesitas.
+                                    </p>
                                 </div>
                             </div>
-
-                            <div 
-                                className='grafico1 prueba'
-                                style={{background: `url(${graficos.b})`}}
-                            >
-                                <div className='grafico2'>
-                                    <div>
-                                        <img src={IconPaso1} alt="Icon tarjet" />
-                                        <h6>
-                                            Paso 1
-                                        </h6>
-                                        <p>
-                                            Selecciona la cantidad de tarjetas físicas Tarjet que necesitas.
-                                        </p>
+                            <div className='contenedor cn2'>
+                                <div>
+                                    <div className='img'>
+                                        <img src={IconPaso2} alt="Icon tarjet" />
                                     </div>
+                                    <h6>
+                                        Paso 2
+                                    </h6>
+                                    <i className="bi bi-arrow-right"></i>
+                                    <p>
+                                        Realiza el pago. Aceptamos pago con tarjeta de crédito / débito.
+                                    </p>
                                 </div>
                             </div>
-
-                            <div 
-                                className='grafico1 prueba2'
-                                style={{background: `url(${graficos.b})`}}
-                            >
-                                <div className='grafico2'>
-                                    <div>
-                                        <img src={IconPaso1} alt="Icon tarjet" />
-                                        <h6>
-                                            Paso 1
-                                        </h6>
-                                        <p>
-                                            Selecciona la cantidad de tarjetas físicas Tarjet que necesitas.
-                                        </p>
+                            <div className='contenedor cn2'>
+                                <div>
+                                    <div className='img'>
+                                        <img src={IconPaso3} alt="Icon tarjet" />
                                     </div>
+                                    <h6>
+                                        Paso 3
+                                    </h6>
+                                    <i className="bi bi-arrow-right"></i>
+                                    <p>
+                                        Personalízala. Llena los datos de tu tarjeta digital en un formulario que recibirás por email al terminar tu compra.
+                                    </p>
                                 </div>
                             </div>
-                            <div 
-                                className='grafico1 prueba3'
-                                style={{background: `url(${graficos.b})`}}
-                            >
-                                <div className='grafico2'>
-                                    <div>
-                                        <img src={IconPaso1} alt="Icon tarjet" />
-                                        <h6>
-                                            Paso 1
-                                        </h6>
-                                        <p>
-                                            Selecciona la cantidad de tarjetas físicas Tarjet que necesitas.
-                                        </p>
+                            <div className='contenedor cn2'>
+                                <div>
+                                    <div className='img'>
+                                        <img src={IconPaso4} alt="Icon tarjet" />
                                     </div>
+                                    <h6>
+                                        Paso 4
+                                    </h6>
+                                    <i className="bi bi-arrow-right"></i>
+                                    <p>
+                                        Recíbela en tu domicilio. Tu tarjeta física tarjet llegará a la dirección que nos proporcionaste, ya estará lista para que la uses. ¡Es así de fácil!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -388,6 +371,64 @@ const TarjetaFisica = () => {
                         <p>
                             Antes de comprar la tarjeta física, tienes que <a href=""> crear tu perfil Tarjet aquí </a>
                         </p>
+                        <Slider {...settingsTFMobile}>
+                            <div className='contenedor cn1'>
+                                <div>
+                                    <div className='img'>
+                                        <img src={IconPaso1} alt="Icon tarjet" />
+                                    </div>
+                                    <h6>
+                                        Paso 1
+                                    </h6>
+                                    <i className="bi bi-arrow-right"></i>
+                                    <p>
+                                        Selecciona la cantidad de tarjetas físicas Tarjet que necesitas.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='contenedor cn2'>
+                                <div>
+                                    <div className='img'>
+                                        <img src={IconPaso2} alt="Icon tarjet" />
+                                    </div>
+                                    <h6>
+                                        Paso 2
+                                    </h6>
+                                    <i className="bi bi-arrow-right"></i>
+                                    <p>
+                                        Realiza el pago. Aceptamos pago con tarjeta de crédito / débito.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='contenedor cn2'>
+                                <div>
+                                    <div className='img'>
+                                        <img src={IconPaso3} alt="Icon tarjet" />
+                                    </div>
+                                    <h6>
+                                        Paso 3
+                                    </h6>
+                                    <i className="bi bi-arrow-right"></i>
+                                    <p>
+                                        Personalízala. Llena los datos de tu tarjeta digital en un formulario que recibirás por email al terminar tu compra.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='contenedor cn2'>
+                                <div>
+                                    <div className='img'>
+                                        <img src={IconPaso4} alt="Icon tarjet" />
+                                    </div>
+                                    <h6>
+                                        Paso 4
+                                    </h6>
+                                    <i className="bi bi-arrow-right"></i>
+                                    <p>
+                                        Recíbela en tu domicilio. Tu tarjeta física tarjet llegará a la dirección que nos proporcionaste, ya estará lista para que la uses. ¡Es así de fácil!
+                                    </p>
+                                </div>
+                            </div>
+                        </Slider>
                     </div>
                 </div>
 
