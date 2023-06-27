@@ -356,3 +356,13 @@ $btnNaranja: #C56A36;
         }
     }
 }
+
+.slick-next:before {
+    display: none;
+}
+.slick-prev:before {
+    display: none;
+}
+.slick-prev, .slick-next{
+    width: 30px;
+}
