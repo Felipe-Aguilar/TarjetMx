@@ -129,73 +129,46 @@ $btnNaranja: #C56A36;
             }
             .graficos{
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;    
                 
-                .grafico{
-                    background-repeat: no-repeat!important;
-                    background-size: cover!important;
-                    background-position: center right!important;
+                .grafico1{
                     width: 20%;
-                    height: 250px;
-                    // padding: 10px;
-                    
-                    display: flex;
-                    justify-content: start;
-                    align-items: center;
+                    height: 285px;
+                    background-repeat: no-repeat!important;
+                    background-size: contain!important;
+                    position: relative;
 
-                    .body{
-                        width: 84%;
-                        background: $colorTextoAzul;
+                    .grafico2{
+                        display: flex;
+                        background: #006E96;
+                        background: transparent;
+                        width: 86%;
+                        height: 100%;
+                        align-items: center;
+                        justify-content: center;
 
                         img{
                             width: 50%;
                             display: block;
                             margin: auto;
-                            margin-bottom: 10px;
                         }
-                        p{
+                        h6, p{
                             color: #fff;
                             text-align: center;
                         }
-                        .description{
-                            font-size: 0.8rem;
-                        }
                     }
-                    .bodyB{
-                        background: transparent;
-                    }
-                }
 
-                .graficoB{
-                    background-position: center center;
                 }
-
-                .bubble {
-                    position: relative;
-                    background: #006e96;
-                    color: #FFFFFF;
-                    font-family: Arial;
-                    font-size: 20px;
-                    line-height: 120px;
-                    text-align: center;
-                    width: 250px;
-                    height: 181px;
-                    border-radius: 0px;
-                    padding: 0px;
-                }
-                .bubble:after {
-                    content: '';
-                    position: absolute;
-                    display: block;
-                    width: 0;
-                    z-index: 1;
-                    border-style: solid;
-                    border-color: transparent #006e96;
-                    border-width: 35px 0 35px 30px;
-                    top: 50%;
-                    right: -30px;
-                    margin-top: -35px;
-                }
+            }
+            .prueba{
+                position: absolute;
+                left: -20px;    
+            }
+            .prueba2{
+                left: -40px;    
+            }
+            .prueba3{
+                left: -60px;    
             }
         }
 
