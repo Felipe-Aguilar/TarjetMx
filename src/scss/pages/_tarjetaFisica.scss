@@ -365,4 +365,13 @@ $btnNaranja: #C56A36;
 }
 .slick-prev, .slick-next{
     width: 30px;
+    z-index: 1;
+}
+.cards{
+    .slick-prev{
+        left: 1px;
+    }
+    .slick-next{
+        right: 1px;
+    }
 }

@@ -10,6 +10,8 @@ import IconTDImagen from '../../assets/icono-tarjet-agregarimagenTD.svg';
 import IconTDBusca from '../../assets/icono-tarjet-buscadortarjetTD.svg';
 import muestraTarjetero from '../../assets/im-tarjet-muestratarjetero-c.webp';
 import Promo from '../../assets/Promo.webp';
+import FlechaIzquierda from '../../assets/flecha-izquierda.svg';
+import FlechaDerecha from '../../assets/flecha-derecha.svg';
 
 const TarjeteroDigital = () => {
 
@@ -24,12 +26,22 @@ const TarjeteroDigital = () => {
     // Settings Slide Tarjeta Digital Mobile
     const settingsTFMobile = {
         dots: true,
-        arrows: false,
+        arrows: true,
         infinite: true,
         autoplaySpeed: 6000,
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
+        prevArrow: (
+            <div className='custom-arrow custom-prev-arrow'>
+                <img src={FlechaIzquierda} className='img-fluid'/>
+            </div>
+        ),
+        nextArrow: (
+            <div className='custom-arrow custom-prev-arrow'>
+                <img src={FlechaDerecha} className='img-fluid'/>
+            </div>
+        ),
         responsive: [
         {
             breakpoint: 1024,

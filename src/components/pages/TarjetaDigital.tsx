@@ -4,11 +4,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import VideoCel1 from '../../assets/tarjet-tarjetadigital-muestra.mp4';
-import IconComClic from '../../assets/icono-tarjet-contactoclic.svg'
-import IconAtractive from '../../assets/icono-tarjet-atractivo.svg'
-import IconMultimedia from '../../assets/icono-tarjet-multimedia.svg'
-import IconIncentiva from '../../assets/icono-tarjet-incentiva.svg'
-import IconPersonalizado from '../../assets/icono-tarjet-personalizado.svg'
+import IconComClic from '../../assets/icono-tarjet-contactoclic.svg';
+import IconAtractive from '../../assets/icono-tarjet-atractivo.svg';
+import IconMultimedia from '../../assets/icono-tarjet-multimedia.svg';
+import IconIncentiva from '../../assets/icono-tarjet-incentiva.svg';
+import IconPersonalizado from '../../assets/icono-tarjet-personalizado.svg';
+import FlechaIzquierda from '../../assets/flecha-izquierda.svg';
+import FlechaDerecha from '../../assets/flecha-derecha.svg';
 
 const TarjetaDigital = () => {
 
@@ -22,12 +24,22 @@ const TarjetaDigital = () => {
     // Settings Slide Tarjeta Digital Mobile
     const settingsTDMobile = {
         dots: true,
-        arrows: false,
+        arrows: true,
         infinite: true,
         autoplaySpeed: 6000,
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
+        prevArrow: (
+            <div className='custom-arrow custom-prev-arrow'>
+                <img src={FlechaIzquierda} className='img-fluid'/>
+            </div>
+        ),
+        nextArrow: (
+            <div className='custom-arrow custom-prev-arrow'>
+                <img src={FlechaDerecha} className='img-fluid'/>
+            </div>
+        ),
         responsive: [
         {
             breakpoint: 1024,

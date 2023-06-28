@@ -17,6 +17,8 @@ import NetworkIcono from '../../assets/icono-tarjet-networking.svg';
 import EscapaIcono from '../../assets/icono-tarjet-tienda.svg';
 import OrdenadoIcono from '../../assets/icono-tarjet-ordencontacto.svg';
 import BuscadorIcono from '../../assets/icono-tarjet-buscador.svg';
+import FlechaIzquierda from '../../assets/flecha-izquierda.svg';
+import FlechaDerecha from '../../assets/flecha-derecha.svg';
 
 const CardsColores = () => {
 
@@ -36,7 +38,21 @@ const CardsColores = () => {
         autoplaySpeed: 6000,
         autoplay: true,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        prevArrow: (
+            <div className='custom-arrow custom-prev-arrow'
+                style={{left: '25px!important'}}
+            >
+                <img src={FlechaIzquierda} className='img-fluid'/>
+            </div>
+        ),
+        nextArrow: (
+            <div className='custom-arrow custom-prev-arrow'
+                style={{right: '-25px'}}
+            >
+                <img src={FlechaDerecha} className='img-fluid'/>
+            </div>
+        )
     }
     const settingsCardsTablet = {
         dots: true,
@@ -45,7 +61,17 @@ const CardsColores = () => {
         autoplaySpeed: 6000,
         autoplay: true,
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        prevArrow: (
+            <div className='custom-arrow custom-prev-arrow'>
+                <img src={FlechaIzquierda} className='img-fluid'/>
+            </div>
+        ),
+        nextArrow: (
+            <div className='custom-arrow custom-prev-arrow'>
+                <img src={FlechaDerecha} className='img-fluid'/>
+            </div>
+        )
     }
 
     return ( 

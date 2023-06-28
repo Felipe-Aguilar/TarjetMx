@@ -18,22 +18,6 @@ import IconPaso4 from '../../assets/icono-tarjet-paso4.svg';
 import FlechaIzquierda from '../../assets/flecha-izquierda.svg';
 import FlechaDerecha from '../../assets/flecha-derecha.svg';
 
-// Arrows 
-// const rowPrev = (props : any) => {
-//     return(
-//         <div className='props.className' onClick={props.OnClick}>
-//             <img src={FlechaIzquierda} alt="" />
-//         </div>
-//     );
-// }
-// const rowNext = (props : any) => {
-//     return(
-//         <div className='props.className' onClick={props.OnClick}>
-//             <img src={FlechaDerecha} alt="" />
-//         </div>
-//     );
-// }
-
 const TarjetaFisica = () => {
 
     // Animación Icons Tarjeta Física
