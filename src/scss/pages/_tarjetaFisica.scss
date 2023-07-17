@@ -86,6 +86,10 @@ $btnNaranja: #C56A36;
                     display: flex;
                     justify-content: space-between;
 
+                    @media (width <= 1366px ) and (height <= 768px) {
+                        gap: 20px;
+                    }
+
                     .icon{
                         width: 25%;
                         

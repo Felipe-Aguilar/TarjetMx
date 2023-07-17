@@ -5,7 +5,7 @@ $colorTextoAzul: #006e96;
 
 // BannerVideo
 .bannerVideo{
-    background: $colorBannerFondo;
+    background: #dccccd;
     margin-top: 77.4px;
     display: flex;
     height: calc(100vh - 77.4px);
@@ -78,6 +78,10 @@ $colorTextoAzul: #006e96;
             bottom: 0;
             padding: 25px;
             text-align: center;
+
+            @media (height <= 568px) {
+                bottom: -25px;
+            }
 
             h5{
                 font-weight: 400;

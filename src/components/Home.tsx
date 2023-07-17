@@ -22,10 +22,10 @@ const Home = () => {
 
             {/* Banner Imagen */}
             <div className='d-none d-lg-block container-fluid p-0'>
-                <img src={BannerCafe} alt="Banner TarjetMx" className='img-fluid'/>
+                <img src={BannerCafe} alt="Banner TarjetMx" className='img-fluid' style={{display: 'block', margin: 'auto'}}/>
             </div>
             <div className='d-block d-md-none container-fluid p-0'>
-                <img src={BannerCafeMobile} alt="Banner TarjetMx" className='img-fluid'/>
+                <img src={BannerCafeMobile} alt="Banner TarjetMx" className='img-fluid' />
             </div>
 
             <TarjetaDigital />

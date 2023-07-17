@@ -23,6 +23,18 @@ $btnNaranja: #C56A36;
 
         ul{
             list-style: none;
+
+            @media screen and (max-width: 575px){
+                padding: 0;
+
+                li{
+                    margin-bottom: 15px;
+                }
+            }
+
+            @media (width <= 320px){
+                padding: 0;
+            }
         }
         p{
             margin-top: 10px;
