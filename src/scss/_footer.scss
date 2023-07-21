@@ -66,6 +66,7 @@ footer{
             text-decoration: none;
             color: $colorGris;
             font-size: 0.9rem;
+            cursor: pointer;
 
             @media screen and (max-width: 575px){
                 display: block;

@@ -1,6 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import LogoGris from '../assets/logotarjet-gris.svg';
 
 const Footer = () => {
+
+    const navigate = useNavigate();
+
     return ( 
         <footer>
             <div className='logo'>
@@ -20,7 +24,7 @@ const Footer = () => {
                 <a href="">Política de Envío</a>
                 <a href="">Términos y Condiciones</a>
                 <a href="">Política de Devoluciones</a>
-                <a href="">Aviso de Privacidad</a>
+                <a onClick={()=>navigate('/aviso-de-privacidad')}>Aviso de Privacidad</a>
                 <a href="">Facturación</a>
             </div>
         </footer>
