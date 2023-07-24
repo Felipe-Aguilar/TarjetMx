@@ -22,14 +22,11 @@ const Header = () => {
 
                         <div className='menu'>
                             <div className='links'>
-                                <a href="">Tienda</a>
+                                <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
                                 <a href="">Empresas</a>
                                 <a href="">Premium</a>
-                                <a href="">Tarjeta Digital</a>
-                                <a href="">Tarjeta física</a>
                                 <a href="https://tarjet.site/#/login">Iniciar sesión</a>
                                 <a href="">Directorio Tarjet</a>
-                                <a href="">Contacto</a>
                             </div>
 
                             <div className='social'>
@@ -77,11 +74,9 @@ const Header = () => {
                             exit={{scale:0, opacity:0}}
                         >
                             <div className='links'>
-                                <a href="">Tienda</a>
+                                <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
                                 <a href="">Empresas</a>
                                 <a href="">Premium</a>
-                                <a href="">Tarjeta Digital</a>
-                                <a href="">Tarjeta física</a>
                                 <a href="https://tarjet.site/#/login">Iniciar sesión</a>
                                 <a href="">Directorio Tarjet</a>
                                 <a href="">Contacto</a>
