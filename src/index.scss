@@ -12,7 +12,7 @@ body{
         text-decoration: none;
     }
     button{
-        outline: none;
+        outline: none!important;
     }
 }
 
@@ -27,3 +27,5 @@ body{
 @import './scss/pages/tarjeteroDigital';
 @import './scss/pages/preguntasFrec';
 @import './scss/pages/aviso';
+
+@import './scss/Premium/premium';

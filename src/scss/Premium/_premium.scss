@@ -1,0 +1,116 @@
+$btnUno: #a8d9de;
+$btnDos: #c2d1d9;
+$encabezado: #9cb4c3;
+$cuerpoCard: #daeaf4;
+
+.Premium{
+    width: 80%;
+    padding: 40px 0;
+    display: block;
+    margin: auto;
+    margin-top: 77.4px;
+
+    @media (width <= 572px) {
+        width: 95%;
+    }
+
+    h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin-bottom: 50px;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    h2{
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 40px;
+    }
+
+    .btns{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        @media (width <= 572px) {
+            display: none;
+        }
+
+        button{
+            padding: 5px;
+            width: 150px;
+            border-radius: 8px;
+            font-weight: bold;
+            border: transparent;
+            background: $btnDos;
+        }
+        .primer{
+            background: $btnUno;
+        }
+    }
+
+    .planes{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+
+        .plan{
+            width: 25%;
+            border-radius: 20px;
+            background: $cuerpoCard;
+        }
+        .encabezado{
+            background: $encabezado;
+            border-radius: 20px 20px 0 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h3{
+                margin-bottom: 0;
+                font-weight: bold;
+                font-size: 1.3rem;
+            }
+        }
+        .cuerpo{
+            padding: 20px;
+
+            .img{
+                width: 100%;
+                height: 200px;
+                margin-bottom: 20px;
+
+                img{
+                    height: 100%;
+                    display: block;
+                    margin: auto;
+                }
+            }
+
+            ul{
+                li{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+
+            h3{
+                margin-bottom: 0;
+                font-weight: bold;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

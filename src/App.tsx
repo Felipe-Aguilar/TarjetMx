@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from './components/Footer';
 import AvisoPrivacidad from './components/pages/AvisoPrivacidad';
+import Premium from './components/Premium/Premium';
 
 const App = () => {
   return ( 
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/aviso-de-privacidad' element={<AvisoPrivacidad />}/>
+        <Route path='/hazte-premium' element={<Premium />}/>
       </Routes>
       <Footer />
     </>
