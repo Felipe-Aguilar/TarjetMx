@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 import Logo from '../assets/logotarjet.svg';
 import LogoMobile from '../assets/logotarjet-cabezal-tablet.svg';
@@ -7,6 +8,8 @@ import LogoMobile from '../assets/logotarjet-cabezal-tablet.svg';
 const Header = () => {
 
     const [button, setButton] = useState<boolean>(false);
+
+    const navigate = useNavigate();
 
     return ( 
         <>
@@ -24,9 +27,9 @@ const Header = () => {
                             <div className='links'>
                                 <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
                                 <a href="">Empresas</a>
-                                <a href="">Premium</a>
+                                <a onClick={()=>navigate('/hazte-premium')}>Premium</a>
                                 <a href="https://tarjet.site/#/login">Iniciar sesión</a>
-                                <a href="">Directorio Tarjet</a>
+                                <a href="https://tarjet.site/#/directorio-tarjet">Directorio Tarjet</a>
                             </div>
 
                             <div className='social'>
