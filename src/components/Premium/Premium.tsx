@@ -3,9 +3,6 @@ import Slider from 'react-slick';
 import premiumBasico from '../../assets/premium-basico.png';
 import premium1 from '../../assets/premium1.png';
 import premium2 from '../../assets/premium2.png';
-import institucional1 from '../../assets/institucional1.png';
-import institucional2 from '../../assets/institucional2.png';
-import institucional3 from '../../assets/institucional3.png';
 import FlechaIzquierda from '../../assets/flecha-izquierda.svg';
 import FlechaDerecha from '../../assets/flecha-derecha.svg';
 
