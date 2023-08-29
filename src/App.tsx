@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Footer from './components/Footer';
 import AvisoPrivacidad from './components/pages/AvisoPrivacidad';
 import Premium from './components/Premium/Premium';
+import Empresas from './components/Empresas/Empresas';
 
 const App = () => {
   return ( 
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/' element={<Home />}/>
         <Route path='/aviso-de-privacidad' element={<AvisoPrivacidad />}/>
         <Route path='/hazte-premium' element={<Premium />}/>
+        <Route path='/empresas' element={<Empresas />}/>
       </Routes>
       <Footer />
     </>

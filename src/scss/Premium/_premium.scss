@@ -80,7 +80,9 @@ $btnVerde: #3aaa35;
         div{
             display: flex;
             flex-direction: column;
+            justify-content: center;
             width: 50%;
+            margin: auto;
 
             > * + * {
                 margin-top: 20px;
