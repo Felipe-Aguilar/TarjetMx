@@ -104,7 +104,7 @@ const Empresas = () => {
                     <div className='footer-b'>
                         <div className='buttons buttons-b'>
                             <h6>Costo por año</h6>
-                            <a href="">
+                            <a href="https://shop.tarjet.mx/">
                                 <span>
                                     $590.00 mxn. 
                                 </span>
@@ -141,7 +141,7 @@ const Empresas = () => {
                     <div className='footer-b'>
                         <div className='buttons buttons-b'>
                             <h6>Costo por año</h6>
-                            <a href="">
+                            <a href="https://shop.tarjet.mx/">
                                 <span>
                                     $890.00 mxn. 
                                 </span>
@@ -178,7 +178,7 @@ const Empresas = () => {
                     <div className='footer-b'>
                         <div className='buttons buttons-b'>
                             <h6>Costo por año</h6>
-                            <a href="">
+                            <a href="https://shop.tarjet.mx/">
                                 <span>
                                     $1490.00 mxn. 
                                 </span>
@@ -219,7 +219,7 @@ const Empresas = () => {
                         <div className='footer-b'>
                             <div className='buttons buttons-b'>
                                 <h6>Costo por año</h6>
-                                <a href="">
+                                <a href="https://shop.tarjet.mx/">
                                     <span>
                                         $590.00 mxn. 
                                     </span>
@@ -256,7 +256,7 @@ const Empresas = () => {
                         <div className='footer-b'>
                             <div className='buttons buttons-b'>
                                 <h6>Costo por año</h6>
-                                <a href="">
+                                <a href="https://shop.tarjet.mx/">
                                     <span>
                                         $890.00 mxn. 
                                     </span>
@@ -293,7 +293,7 @@ const Empresas = () => {
                         <div className='footer-b'>
                             <div className='buttons buttons-b'>
                                 <h6>Costo por año</h6>
-                                <a href="">
+                                <a href="https://shop.tarjet.mx/">
                                     <span>
                                         $1490.00 mxn. 
                                     </span>

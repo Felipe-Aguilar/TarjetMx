@@ -32,7 +32,7 @@ const Home = () => {
 
             {/* btnSolicita */}
             <div className='container-fluid btnSolicita'>
-                <a href="">
+                <a href="https://tarjet.site/#/login">
                     Solicita gratuitamente tu tarjeta digital Tarjet
                 </a>
             </div>
@@ -56,7 +56,7 @@ const Home = () => {
                     </h5>
                 </div>
                 <div className='btnContactanos'>
-                    <a href="">
+                    <a href="https://wa.me/5586763895">
                         Contáctanos
                     </a>
                 </div>

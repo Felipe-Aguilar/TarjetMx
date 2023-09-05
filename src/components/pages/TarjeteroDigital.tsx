@@ -128,7 +128,7 @@ const TarjeteroDigital = () => {
 
                     <div className='block2'>
                         <div>
-                            <a href="" className='btnMorado'>
+                            <a href="https://tarjet.site/#/login" className='btnMorado'>
                                 Regístrate gratuitamente <br/> y accede a tu tarjetero digital tarjet.
                             </a>
                             <p>
@@ -137,7 +137,7 @@ const TarjeteroDigital = () => {
                         </div>
 
                         <div>
-                            <a href="" className='btnNaranja'>
+                            <a href="https://tarjet.site/#/directorio-tarjet" className='btnNaranja'>
                                 Ya tienes tu cuenta Tarjet. <br />
                                 Consulta aquí el directorio de socios tarjet.
                             </a>
@@ -162,7 +162,7 @@ const TarjeteroDigital = () => {
                                 Quien consulta gratuitamente el directorio de servicios y negocios tarjet, puede acceder a tu información general y guardar los datos en su agenda de contactos tarjet dentro de nuestra plataforma. También pueden recomendarte o compartir tu información en un clic.
                             </p>
 
-                            <a href="">
+                            <a href="https://tarjet.site/#/login">
                                 Registra gratuitamente tu negocio en el directorio 
                             </a>
                         </div>
@@ -225,7 +225,7 @@ const TarjeteroDigital = () => {
                         <img src={muestraTarjetero} alt="Muestra tarjetero tarjet" />
                     </div>
                     <div className='block2'>
-                        <a href="" className='btnMorado'>
+                        <a href="https://tarjet.site/#/login" className='btnMorado'>
                             Regístrate gratuitamente <br/> y accede a tu tarjetero digital tarjet.
                         </a>
                         <p className='mt-4 mb-4'>
@@ -253,7 +253,7 @@ const TarjeteroDigital = () => {
                             Quien consulta gratuitamente el directorio de servicios y negocios tarjet, puede acceder a tu información general y guardar los datos en su agenda de contactos tarjet dentro de nuestra plataforma. También pueden recomendarte o compartir tu información en un clic.
                         </p>
 
-                        <a href="">
+                        <a href="https://tarjet.site/#/login">
                             Registra gratuitamente tu negocio en el directorio 
                         </a>
                     </div>

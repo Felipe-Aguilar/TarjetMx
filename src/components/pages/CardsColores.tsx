@@ -144,10 +144,10 @@ const CardsColores = () => {
                         </div>
 
                         <div className='buttons'>
-                            <a href="" className='btnAzul'>
+                            <a href="https://tarjet.site/#/login" className='btnAzul'>
                                 Conoce más
                             </a>
-                            <a href="" className='btnVerde'>
+                            <a href="https://tarjet.site/#/login" className='btnVerde'>
                                 Solicítala gratuitamente
                             </a>
                         </div>
@@ -219,10 +219,10 @@ const CardsColores = () => {
                         </div>
 
                         <div className='buttons'>
-                            <a href="" className='btnAzul'>
+                            <a href="https://tarjet.site/#/login" className='btnAzul'>
                                 Conoce más
                             </a>
-                            <a href="" className='btnVerde'>
+                            <a href="https://shop.tarjet.mx/" className='btnVerde'>
                                 Compra tu tarjeta física
                             </a>
                         </div>
@@ -283,17 +283,17 @@ const CardsColores = () => {
                         </div>
 
                         <div className='buttons buttonsB'>
-                            <a href="" className='btnAzul'>
+                            <a href="https://tarjet.site/#/login" className='btnAzul'>
                                 Conoce más
                             </a>
-                            <a href="" className='btnVerde'>
+                            <a href="https://tarjet.site/#/login" className='btnVerde'>
                                 Registra tu empresa gratuitamente
                             </a>
-                            <a href="" className='btnVioleta'>
+                            <a href="https://tarjet.site/#/login" className='btnVioleta'>
                                 <span>Crea tu cuenta gratuitamente</span> <br/>
                                 (podrás consultar el directorio, no es necesario crear una tarjeta digital tarjet)
                             </a>
-                            <a href="" className='btnNaranja'>
+                            <a href="https://tarjet.site/#/directorio-tarjet" className='btnNaranja'>
                                 Consulta el directorio Tarjet
                             </a>
                         </div>
@@ -366,10 +366,10 @@ const CardsColores = () => {
                                 </div>
 
                                 <div className='buttons'>
-                                    <a href="" className='btnAzul'>
+                                    <a href="https://tarjet.site/#/login" className='btnAzul'>
                                         Conoce más
                                     </a>
-                                    <a href="" className='btnVerde'>
+                                    <a href="https://tarjet.site/#/login" className='btnVerde'>
                                         Solicítala gratuitamente
                                     </a>
                                 </div>
@@ -436,10 +436,10 @@ const CardsColores = () => {
                                 </div>
 
                                 <div className='buttons'>
-                                    <a href="" className='btnAzul'>
+                                    <a href="https://tarjet.site/#/login" className='btnAzul'>
                                         Conoce más
                                     </a>
-                                    <a href="" className='btnVerde'>
+                                    <a href="https://shop.tarjet.mx/" className='btnVerde'>
                                         Compra tu tarjeta física
                                     </a>
                                 </div>
@@ -496,17 +496,17 @@ const CardsColores = () => {
                                 </div>
 
                                 <div className='buttons buttonsB'>
-                                    <a href="" className='btnAzul'>
+                                    <a href="https://tarjet.site/#/login" className='btnAzul'>
                                         Conoce más
                                     </a>
-                                    <a href="" className='btnVerde'>
+                                    <a href="https://tarjet.site/#/login" className='btnVerde'>
                                         Registra tu empresa gratuitamente
                                     </a>
-                                    <a href="" className='btnVioleta'>
+                                    <a href="https://tarjet.site/#/login" className='btnVioleta'>
                                         <span>Crea tu cuenta gratuitamente</span> <br/>
                                         (podrás consultar el directorio, no es necesario crear una tarjeta digital tarjet)
                                     </a>
-                                    <a href="" className='btnNaranja'>
+                                    <a href="https://tarjet.site/#/directorio-tarjet" className='btnNaranja'>
                                         Consulta el directorio Tarjet
                                     </a>
                                 </div>
@@ -580,10 +580,10 @@ const CardsColores = () => {
                                 </div>
 
                                 <div className='buttons'>
-                                    <a href="" className='btnAzul'>
+                                    <a href="https://tarjet.site/#/login" className='btnAzul'>
                                         Conoce más
                                     </a>
-                                    <a href="" className='btnVerde'>
+                                    <a href="https://tarjet.site/#/login" className='btnVerde'>
                                         Solicítala gratuitamente
                                     </a>
                                 </div>
@@ -650,10 +650,10 @@ const CardsColores = () => {
                                 </div>
 
                                 <div className='buttons'>
-                                    <a href="" className='btnAzul'>
+                                    <a href="https://tarjet.site/#/login" className='btnAzul'>
                                         Conoce más
                                     </a>
-                                    <a href="" className='btnVerde'>
+                                    <a href="https://shop.tarjet.mx/" className='btnVerde'>
                                         Compra tu tarjeta física
                                     </a>
                                 </div>
@@ -710,17 +710,17 @@ const CardsColores = () => {
                                 </div>
 
                                 <div className='buttons buttonsB'>
-                                    <a href="" className='btnAzul'>
+                                    <a href="https://tarjet.site/#/login" className='btnAzul'>
                                         Conoce más
                                     </a>
-                                    <a href="" className='btnVerde'>
+                                    <a href="https://tarjet.site/#/login" className='btnVerde'>
                                         Registra tu empresa gratuitamente
                                     </a>
-                                    <a href="" className='btnVioleta'>
+                                    <a href="https://tarjet.site/#/login" className='btnVioleta'>
                                         <span>Crea tu cuenta gratuitamente</span> <br/>
                                         (podrás consultar el directorio, no es necesario crear una tarjeta digital tarjet)
                                     </a>
-                                    <a href="" className='btnNaranja'>
+                                    <a href="https://tarjet.site/#/directorio-tarjet" className='btnNaranja'>
                                         Consulta el directorio Tarjet
                                     </a>
                                 </div>

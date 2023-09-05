@@ -42,6 +42,10 @@ header{
                 text-decoration: none;
                 color: $colorLink;
                 cursor: pointer;
+
+                &:hover{
+                    color: $colorLink;
+                }
             }
         }
 

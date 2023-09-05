@@ -11,6 +11,16 @@ const Header = () => {
 
     const navigate = useNavigate();
 
+    const navigateEmpresas = () => {
+        navigate('/empresas');
+        setButton(false);
+    }
+
+    const navigatePremium = () => {
+        navigate('/hazte-premium');
+        setButton(false);
+    }
+
     return ( 
         <>
             <header>
@@ -78,11 +88,11 @@ const Header = () => {
                         >
                             <div className='links'>
                                 <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
-                                <a onClick={()=>navigate('/empresas')}>Empresas</a>
-                                <a onClick={()=>navigate('/hazte-premium')}>Premium</a>
+                                <a onClick={navigateEmpresas}>Empresas</a>
+                                <a onClick={navigatePremium}>Premium</a>
                                 <a href="https://tarjet.site/#/login">Iniciar sesión</a>
                                 <a href="https://tarjet.site/#/directorio-tarjet">Directorio Tarjet</a>
-                                <a href="">Contacto</a>
+                                <a href="https://wa.me/5586763895">Contacto</a>
                             </div>
 
                             <hr className='mt-5'/>
