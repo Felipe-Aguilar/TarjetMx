@@ -445,7 +445,7 @@ const TarjetaFisica = () => {
                 </div>
 
                 <div className='buttons'>
-                    <a href="https://tarjet.site/#/login" className='btnNaranja'>
+                    <a href="https://shop.tarjet.mx/" className='btnNaranja'>
                         Compra tu Tarjeta física con nfc Tarjet
                     </a>
                     <a href="https://tarjet.mx/#/empresas" className='btnAzul'>

@@ -286,7 +286,7 @@ const CardsColores = () => {
                             <a href="https://tarjet.site/#/login" className='btnAzul'>
                                 Conoce más
                             </a>
-                            <a href="https://tarjet.site/#/login" className='btnVerde'>
+                            <a href="https://tarjet.mx/#/empresas" className='btnVerde'>
                                 Registra tu empresa gratuitamente
                             </a>
                             <a href="https://tarjet.site/#/login" className='btnVioleta'>
@@ -499,7 +499,7 @@ const CardsColores = () => {
                                     <a href="https://tarjet.site/#/login" className='btnAzul'>
                                         Conoce más
                                     </a>
-                                    <a href="https://tarjet.site/#/login" className='btnVerde'>
+                                    <a href="https://tarjet.mx/#/empresas" className='btnVerde'>
                                         Registra tu empresa gratuitamente
                                     </a>
                                     <a href="https://tarjet.site/#/login" className='btnVioleta'>
@@ -713,7 +713,7 @@ const CardsColores = () => {
                                     <a href="https://tarjet.site/#/login" className='btnAzul'>
                                         Conoce más
                                     </a>
-                                    <a href="https://tarjet.site/#/login" className='btnVerde'>
+                                    <a href="https://tarjet.mx/#/empresas" className='btnVerde'>
                                         Registra tu empresa gratuitamente
                                     </a>
                                     <a href="https://tarjet.site/#/login" className='btnVioleta'>
