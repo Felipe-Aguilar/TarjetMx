@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
-import Logo from '../assets/logotarjet.svg';
-import LogoMobile from '../assets/logotarjet-cabezal-tablet.svg';
+import Logo from '../assets/logo-tarjet.svg';
+import LogoMobile from '../assets/logo-tarjet.svg';
 
 const Header = () => {
 
@@ -38,7 +38,7 @@ const Header = () => {
                                 <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
                                 <a onClick={()=>navigate('/empresas')}>Empresas</a>
                                 <a onClick={()=>navigate('/hazte-premium')}>Premium</a>
-                                <a href="https://tarjet.site/#/login">Iniciar sesión</a>
+                                <a href="https://tarjet.site/#/login">Mi sesión</a>
                                 <a href="https://tarjet.site/#/directorio-tarjet">Directorio Tarjet</a>
                             </div>
 
@@ -55,7 +55,7 @@ const Header = () => {
 
                     {/* Mobile */}
                     <div className="d-flex d-lg-none justify-content-between align-items-center">
-                        <div className='logo w-75'>
+                        <div className='logo'>
                             <a href="https://tarjet.mx/">
                                 <img src={ LogoMobile } alt="Tarjet | Tu tarjeta de presentación digital" className='img-fluid'/>
                             </a>
@@ -90,7 +90,7 @@ const Header = () => {
                                 <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
                                 <a onClick={navigateEmpresas}>Empresas</a>
                                 <a onClick={navigatePremium}>Premium</a>
-                                <a href="https://tarjet.site/#/login">Iniciar sesión</a>
+                                <a href="https://tarjet.site/#/login">Mi sesión</a>
                                 <a href="https://tarjet.site/#/directorio-tarjet">Directorio Tarjet</a>
                                 <a href="https://wa.me/5586763895">Contacto</a>
                             </div>

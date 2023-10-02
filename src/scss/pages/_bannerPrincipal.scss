@@ -6,10 +6,11 @@ $colorTextoAzul: #006e96;
 // BannerVideo
 .bannerVideo{
     background: #dccccd;
-    margin-top: 77.4px;
+    margin-top:  68.4px;
     display: flex;
     height: calc(100vh - 77.4px);
     justify-content: center;
+
     @media screen and (max-width: 1024px){
         padding: 0;
     }
