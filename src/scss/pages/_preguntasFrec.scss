@@ -22,7 +22,15 @@ $btnNaranja: #C56A36;
         }
 
         ul{
-            list-style: none;
+            // list-style: none;
+            cursor: pointer;
+
+            p{
+                margin: 0;
+                line-height: normal;
+                font-size: 0.9rem;
+                padding: 15px 10px;
+            }
 
             @media screen and (max-width: 575px){
                 padding: 0;
