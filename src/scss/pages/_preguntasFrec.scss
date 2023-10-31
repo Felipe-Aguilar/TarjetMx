@@ -30,6 +30,11 @@ $btnNaranja: #C56A36;
                 line-height: normal;
                 font-size: 0.9rem;
                 padding: 15px 10px;
+
+                @media (width <= 575px) {
+                    text-align: left;
+                    padding: 0 10px 15px 10px;
+                }
             }
 
             @media screen and (max-width: 575px){
