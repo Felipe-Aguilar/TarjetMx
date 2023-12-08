@@ -197,7 +197,7 @@ const TarjetaFisica = () => {
                                 Proceso de compra de la tarjeta física Tarjet con NFC
                             </h5>
                             <p>
-                                Antes de comprar la tarjeta física, tienes que <a href="">crear tu perfil Tarjet aquí</a>
+                                Antes de comprar la tarjeta física, tienes que <a href="https://tarjet.site/#/login">crear tu perfil Tarjet aquí</a>
                             </p>
                         </div>
                         <div className='graficos'>
@@ -381,7 +381,7 @@ const TarjetaFisica = () => {
                             Proceso de compra de la tarjeta física Tarjet con NFC
                         </h6>
                         <p>
-                            Antes de comprar la tarjeta física, tienes que <a href=""> crear tu perfil Tarjet aquí </a>
+                            Antes de comprar la tarjeta física, tienes que <a href="https://tarjet.site/#/login"> crear tu perfil Tarjet aquí </a>
                         </p>
                         <Slider {...settingsTFMobile}>
                             <div className='contenedor cn1'>

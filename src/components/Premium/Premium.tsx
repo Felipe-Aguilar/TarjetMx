@@ -124,14 +124,17 @@ const Premium = () => {
                     <div className='footer-b'>
                         <div className='buttons'>
                             <h6>Costo por mes</h6>
-                            <a href="https://shop.tarjet.mx/">
+                            <span className=' d-block font-weight-bold text-center'>
+                                $25.00 mxn. 
+                            </span>
+                            {/* <a href="https://shop.tarjet.mx/">
                                 <span>
                                     $25.00 mxn. 
                                 </span>
                                 <span>
                                     Comprar
                                 </span>
-                            </a>
+                            </a> */}
                         </div>
                         <div className='buttons buttons-b'>
                             <h6>Costo por año</h6>
@@ -172,14 +175,17 @@ const Premium = () => {
                     <div className='footer-b'>
                         <div className='buttons'>
                             <h6>Costo por mes</h6>
-                            <a href="https://shop.tarjet.mx/">
+                            <span className=' d-block font-weight-bold text-center'>
+                                $60.00 mxn. 
+                            </span>
+                            {/* <a href="https://shop.tarjet.mx/">
                                 <span>
                                     $60.00 mxn. 
                                 </span>
                                 <span>
                                     Comprar
                                 </span>
-                            </a>
+                            </a> */}
                         </div>
                         <div className='buttons buttons-b'>
                             <h6>Costo por año</h6>
@@ -246,14 +252,17 @@ const Premium = () => {
                         <div className='footer-b'>
                             <div className='buttons'>
                                 <h6>Costo por mes</h6>
-                                <a href="https://shop.tarjet.mx/">
+                                <span className=' d-block font-weight-bold text-center'>
+                                    $25.00 mxn. 
+                                </span>
+                                {/* <a href="https://shop.tarjet.mx/">
                                     <span>
                                         $25.00 mxn. 
                                     </span>
                                     <span>
                                         Comprar
                                     </span>
-                                </a>
+                                </a> */}
                             </div>
                             <div className='buttons buttons-b'>
                                 <h6>Costo por año</h6>
@@ -294,14 +303,17 @@ const Premium = () => {
                         <div className='footer-b'>
                             <div className='buttons'>
                                 <h6>Costo por mes</h6>
-                                <a href="https://shop.tarjet.mx/">
+                                <span className=' d-block font-weight-bold text-center'>
+                                    $60.00 mxn. 
+                                </span>
+                                {/* <a href="https://shop.tarjet.mx/">
                                     <span>
                                         $60.00 mxn. 
                                     </span>
                                     <span>
                                         Comprar
                                     </span>
-                                </a>
+                                </a> */}
                             </div>
                             <div className='buttons buttons-b'>
                                 <h6>Costo por año</h6>

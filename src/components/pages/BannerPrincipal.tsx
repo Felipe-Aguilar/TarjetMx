@@ -11,18 +11,23 @@ const BannerPrincipal = () => {
                     </video>
 
                     <div className='contenido'>
-                        <h1>Tu tarjetero virtual en tu celular, conecta a personas con tus servicios y hagamos networking entre negocios.</h1>
+                        {/* <h1>Tu tarjetero virtual en tu celular, conecta a personas con tus servicios y hagamos networking entre negocios.</h1> */}
+
+                        <h1>Es un tarjetero virtual en tu celular. <br/>
+                        Conectamos personas con tus servicios y fortalecemos el  networking entre negocios.</h1>
 
                         <div className='green'>
                             <h5>Por qué es un tarjetero.</h5>
                             <p>
-                                Digitalizamos el concepto de ordenar, en una sola herramienta, todas las tarjetas de tus principales proveedores, y puedas consultar sus datos, de forma fácil y accesible en tu celular. Convertirse en digital significa mejorar la forma en que administras tus contactos de negocios. 
+                                Digitalizamos el concepto de ordenar en una sola herramienta todas las tarjetas de tus principales proveedores. Podrás consultar sus datos de forma fácil y accesible en tu celular. 
+                                <br /><br />
+                                Convertirse en digital implica mejorar la forma en que administras tus contactos de negocios.
                             </p>
                             <h6 className='mb-0'>
                                 <span>Te invitamos a conocer:</span> <br/>
-                                la tarjeta digital, <br/>
-                                la tarjeta física con NFC <br/>
-                                y el tarjetero digital Tarjet.<br/>
+                                La tarjeta digital. <br/>
+                                La tarjeta física con NFC. <br/>
+                                El tarjetero digital Tarjet.<br/>
                             </h6>
                         </div>
                     </div>
@@ -34,8 +39,11 @@ const BannerPrincipal = () => {
                     </video>
 
                     <div className='contenido'>
-                        <h5>
+                        {/* <h5>
                             Tu tarjetero virtual en tu celular, conecta a personas con tus servicios y hagamos networking entre negocios.
+                        </h5> */}
+                        <h5>
+                            Es un tarjetero virtual en tu celular.Conectamos personas con tus servicios y fortalecemos el  networking entre negocios.
                         </h5>
                     </div>
                 </div>
@@ -44,13 +52,16 @@ const BannerPrincipal = () => {
                 <div>
                     <h4>Por qué es un tarjetero.</h4>
                     <p>
-                        Digitalizamos el concepto de ordenar, en una sola herramienta, todas las tarjetas de tus principales proveedores, y puedas consultar sus datos, de forma fácil y accesible en tu celular. Convertirse en digital signi ica mejorar la forma en que administras tus contactos de negocios. 
+                        Digitalizamos el concepto de ordenar en una sola herramienta todas las tarjetas de tus principales proveedores. Podrás consultar sus datos de forma fácil y accesible en tu celular. 
+
+                        <br /><br />
+                        Convertirse en digital implica mejorar la forma en que administras tus contactos de negocios.
                     </p>
                     <h5 className='mt-5'>
                         <span>Te invitamos a conocer:</span> <br/>
-                        la tarjeta digital, <br/>
-                        la tarjeta física con NFC <br/>
-                        y el tarjetero digital Tarjet. <br/>
+                        La tarjeta digital. <br/>
+                        La tarjeta física con NFC.<br/>
+                        El tarjetero digital Tarjet. <br/>
                     </h5>
                 </div>
             </div>

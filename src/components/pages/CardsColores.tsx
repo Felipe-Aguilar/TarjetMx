@@ -85,7 +85,9 @@ const CardsColores = () => {
                         transition={{delay: 0.5}}
                     >
                         <div className='title'>
-                            <h4>Tarjeta digital Tarjet</h4>
+                            <h4>Tarjeta Digital Tarjet <br/>
+                            (Tu propio sitio WEB)
+                        </h4>
                         </div>
                         <div className='body'>
                             <div className='w-25'>
@@ -94,7 +96,7 @@ const CardsColores = () => {
                             <div className='w-75'>
                                 <p><span>Código Qr</span></p>
                                 <p>
-                                    Te creamos tu código para compartir tu tarjeta física y digital fácilmente
+                                    Creamos tu código para compartir tu tarjeta digital fácilmente.
                                 </p>
                             </div>
                         </div>
@@ -148,7 +150,7 @@ const CardsColores = () => {
                                 Conoce más
                             </a>
                             <a href="https://tarjet.site/#/login" className='btnVerde'>
-                                Solicítala gratuitamente
+                                Crea tu Tarjeta Gratis
                             </a>
                         </div>
 
@@ -160,7 +162,9 @@ const CardsColores = () => {
                         transition={{delay: 0.9}}
                     >
                         <div className='title'>
-                            <h4>Tarjeta física Tarjet con NFC</h4>
+                            <h4>Tarjetas físicas: <br />
+                            Tarjet con NFC y QR
+                            </h4>
                         </div>
                         <div className='body'>
                             <div className='w-25'>
@@ -235,7 +239,7 @@ const CardsColores = () => {
                         transition={{delay: 1.3}}
                     >
                         <div className='title'>
-                            <h4>Tarjetero digital Tarjet</h4>
+                            <h4>Directorio Tarjet</h4>
                         </div>
                         <div className='body'>
                             <div className='w-25'>
@@ -266,7 +270,7 @@ const CardsColores = () => {
                             <div className='w-75'>
                                 <p><span>Ordenado</span></p>
                                 <p>
-                                    Consulta tus contactos tarjet.
+                                    Clasifica tus Tarjetas Virtuales.
                                 </p>
                             </div>
                         </div>
@@ -277,7 +281,7 @@ const CardsColores = () => {
                             <div className='w-75'>
                                 <p><span>Buscador</span></p>
                                 <p>
-                                    Llega a más clientes que buscan lo que haces.
+                                    Lleva tu profesión o negocio a más clientes que buscan lo que haces.
                                 </p>
                             </div>
                         </div>
@@ -307,7 +311,9 @@ const CardsColores = () => {
                         <Slider {...settingsCards}>
                             <div className='card'>
                                 <div className='title'>
-                                    <h4>Tarjeta digital Tarjet</h4>
+                                    <h4>Tarjeta digital Tarjet <br/>
+                                        (Tu propio sitio WEB)
+                                    </h4>
                                 </div>
                                 <div className='body'>
                                     <div className='w-25'>
@@ -316,7 +322,7 @@ const CardsColores = () => {
                                     <div className='w-75'>
                                         <p><span>Código Qr</span></p>
                                         <p>
-                                            Te creamos tu código para compartir tu tarjeta física y digital fácilmente
+                                            Creamos tu código para compartir tu tarjeta digital fácilmente.
                                         </p>
                                     </div>
                                 </div>
@@ -377,7 +383,9 @@ const CardsColores = () => {
 
                             <div className='card cardAmarilla'>
                                 <div className='title'>
-                                    <h4>Tarjeta física Tarjet con NFC</h4>
+                                    <h4>Tarjetas físicas: <br />
+                                        Tarjet con NFC y QR
+                                    </h4>
                                 </div>
                                 <div className='body'>
                                     <div className='w-25'>
@@ -448,7 +456,7 @@ const CardsColores = () => {
 
                             <div className='card cardVioleta'>
                                 <div className='title'>
-                                    <h4>Tarjetero digital Tarjet</h4>
+                                    <h4>Directorio Tarjet</h4>
                                 </div>
                                 <div className='body'>
                                     <div className='w-25'>
@@ -479,7 +487,7 @@ const CardsColores = () => {
                                     <div className='w-75'>
                                         <p><span>Ordenado</span></p>
                                         <p>
-                                            Consulta tus contactos tarjet.
+                                            Clasifica tus Tarjetas Virtuales.
                                         </p>
                                     </div>
                                 </div>
@@ -490,7 +498,7 @@ const CardsColores = () => {
                                     <div className='w-75'>
                                         <p><span>Buscador</span></p>
                                         <p>
-                                            Llega a más clientes que buscan lo que haces.
+                                            Lleva tu profesión o negocio a más clientes que buscan lo que haces.
                                         </p>
                                     </div>
                                 </div>
@@ -521,7 +529,9 @@ const CardsColores = () => {
                         <Slider {...settingsCardsTablet}>
                             <div className='card'>
                                 <div className='title'>
-                                    <h4>Tarjeta digital Tarjet</h4>
+                                    <h4>Tarjeta digital Tarjet  <br/>
+                                    (Tu propio sitio WEB)
+                                </h4>
                                 </div>
                                 <div className='body'>
                                     <div className='w-25'>
@@ -530,7 +540,7 @@ const CardsColores = () => {
                                     <div className='w-75'>
                                         <p><span>Código Qr</span></p>
                                         <p>
-                                            Te creamos tu código para compartir tu tarjeta física y digital fácilmente
+                                            Creamos tu código para compartir tu tarjeta digital fácilmente.
                                         </p>
                                     </div>
                                 </div>
@@ -591,7 +601,9 @@ const CardsColores = () => {
 
                             <div className='card cardAmarilla'>
                                 <div className='title'>
-                                    <h4>Tarjeta física Tarjet con NFC</h4>
+                                    <h4>Tarjetas físicas: <br />
+                                        Tarjet con NFC y QR
+                                    </h4>
                                 </div>
                                 <div className='body'>
                                     <div className='w-25'>
@@ -662,7 +674,7 @@ const CardsColores = () => {
 
                             <div className='card cardVioleta'>
                                 <div className='title'>
-                                    <h4>Tarjetero digital Tarjet</h4>
+                                    <h4>Directorio Tarjet</h4>
                                 </div>
                                 <div className='body'>
                                     <div className='w-25'>
@@ -693,7 +705,7 @@ const CardsColores = () => {
                                     <div className='w-75'>
                                         <p><span>Ordenado</span></p>
                                         <p>
-                                            Consulta tus contactos tarjet.
+                                            Clasifica tus Tarjetas Virtuales.
                                         </p>
                                     </div>
                                 </div>
@@ -704,7 +716,7 @@ const CardsColores = () => {
                                     <div className='w-75'>
                                         <p><span>Buscador</span></p>
                                         <p>
-                                            Llega a más clientes que buscan lo que haces.
+                                            Lleva tu profesión o negocio a más clientes que buscan lo que haces.
                                         </p>
                                     </div>
                                 </div>
