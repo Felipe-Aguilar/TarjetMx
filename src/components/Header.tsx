@@ -38,7 +38,8 @@ const Header = () => {
                                 <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
                                 <a onClick={()=>navigate('/empresas')}>Empresas</a>
                                 <a onClick={()=>navigate('/hazte-premium')}>Premium</a>
-                                <a href="https://tarjet.site/#/login">Mi sesión</a>
+                                {/* <a href="https://tarjet.site/#/login">Mi sesión</a> */}
+                                <a href="https://tarjet.site/#/login">Mi Tarjetero</a>
                                 <a href="https://tarjet.site/#/directorio-tarjet">Directorio Tarjet</a>
                             </div>
 
@@ -90,7 +91,8 @@ const Header = () => {
                                 <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
                                 <a onClick={navigateEmpresas}>Empresas</a>
                                 <a onClick={navigatePremium}>Premium</a>
-                                <a href="https://tarjet.site/#/login">Mi sesión</a>
+                                {/* <a href="https://tarjet.site/#/login">Mi sesión</a> */}
+                                <a href="https://tarjet.site/#/login">Mi Tarjetero</a>
                                 <a href="https://tarjet.site/#/directorio-tarjet">Directorio Tarjet</a>
                                 <a href="https://wa.me/5586763895">Contacto</a>
                             </div>
