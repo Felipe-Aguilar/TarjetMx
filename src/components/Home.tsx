@@ -7,13 +7,8 @@ import TarjetaDigital from './pages/TarjetaDigital';
 import TarjetaFisica from './pages/TarjetaFisica';
 import TarjeteroDigital from './pages/TarjeteroDigital';
 import PreguntasFrec from './pages/PreguntasFrec';
-import { useEffect } from 'react';
 
 const Home = () => {
-
-    useEffect(()=>{
-        window.location.href = "https://tarjet.site/#/directorio-tarjet";
-    },[]);
 
     return ( 
         <>

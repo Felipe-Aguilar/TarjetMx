@@ -28,7 +28,7 @@ const Header = () => {
                     {/* Desktop */}
                     <div className="d-none d-lg-flex justify-content-between align-items-center">
                         <div className='logo w-auto'>
-                            <a href="https://tarjet.mx/">
+                            <a onClick={()=>navigate('/acerca-tarjet')}>
                                 <img src={ Logo } alt="Tarjet | Tu tarjeta de presentación digital" className='img-fluid'/>
                             </a>
                         </div>
@@ -40,6 +40,7 @@ const Header = () => {
                                 <a onClick={()=>navigate('/hazte-premium')}>Premium</a>
                                 {/* <a href="https://tarjet.site/#/login">Mi sesión</a> */}
                                 <a href="https://tarjet.site/#/login">Mi Tarjetero</a>
+                                <a onClick={()=>navigate('/acerca-tarjet')}>Acerca de Tarjet</a>
                                 <a href="https://tarjet.site/#/directorio-tarjet">Directorio Tarjet</a>
                             </div>
 
@@ -93,6 +94,7 @@ const Header = () => {
                                 <a onClick={navigatePremium}>Premium</a>
                                 {/* <a href="https://tarjet.site/#/login">Mi sesión</a> */}
                                 <a href="https://tarjet.site/#/login">Mi Tarjetero</a>
+                                <a onClick={()=>navigate('/acerca-tarjet')}>Acerca de Tarjet</a>
                                 <a href="https://tarjet.site/#/directorio-tarjet">Directorio Tarjet</a>
                                 <a href="https://wa.me/5586763895">Contacto</a>
                             </div>
