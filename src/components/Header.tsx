@@ -58,7 +58,7 @@ const Header = () => {
                     {/* Mobile */}
                     <div className="d-flex d-lg-none justify-content-between align-items-center">
                         <div className='logo'>
-                            <a href="https://tarjet.mx/">
+                            <a onClick={()=>navigate('/acerca-tarjet')}>
                                 <img src={ LogoMobile } alt="Tarjet | Tu tarjeta de presentación digital" className='img-fluid'/>
                             </a>
                         </div>
