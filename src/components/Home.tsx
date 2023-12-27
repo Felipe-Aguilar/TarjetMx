@@ -1,17 +1,19 @@
 import BannerCafe from '../assets/mi-tarjet-entregacafe.webp';
 import BannerCafeMobile from '../assets/mi-tarjet-cafeteria-mobile.webp';
 import Celulares from '../assets/mi-tarjet-celulares.webp';
-// import IconPaso2 from '../assets/icono-tarjet-paso2.svg';
-// import IconPaso3 from '../assets/icono-tarjet-paso3.svg';
-// import IconPaso4 from '../assets/icono-tarjet-paso4.svg';
 import BannerPrincipal from './pages/BannerPrincipal';
 import CardsColores from './pages/CardsColores';
 import TarjetaDigital from './pages/TarjetaDigital';
 import TarjetaFisica from './pages/TarjetaFisica';
 import TarjeteroDigital from './pages/TarjeteroDigital';
 import PreguntasFrec from './pages/PreguntasFrec';
+import { useEffect } from 'react';
 
 const Home = () => {
+
+    useEffect(()=>{
+        window.location.href = "https://tarjet.site/#/directorio-tarjet";
+    },[]);
 
     return ( 
         <>
