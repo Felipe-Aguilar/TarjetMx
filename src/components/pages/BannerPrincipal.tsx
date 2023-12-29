@@ -1,7 +1,10 @@
 import VideoBanner from '../../assets/vdcabezaltarjet1080p.mp4';
 import VideoBannerMobile from '../../assets/vdcabezaltarjetmovil1080p.mp4';
+import { Link } from 'react-scroll';
 
 const BannerPrincipal = () => {
+
+
     return ( 
         <>
             <div className="container-fluid bannerVideo">
@@ -25,9 +28,37 @@ const BannerPrincipal = () => {
                             </p>
                             <h6 className='mb-0'>
                                 <span>Te invitamos a conocer:</span> <br/>
-                                La tarjeta digital. <br/>
-                                La tarjeta física con NFC. <br/>
-                                El tarjetero digital Tarjet.<br/>
+                                <Link
+                                    activeClass="active"
+                                    to="section1"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >
+                                    La tarjeta digital.
+                                </Link>
+                                <Link
+                                    activeClass="active"
+                                    to="section2"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >
+                                    La tarjeta física con NFC.
+                                </Link>
+                                <Link
+                                    activeClass="active"
+                                    to="section3"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                    className='mb-0'
+                                >
+                                    El tarjetero digital Tarjet.
+                                </Link>
                             </h6>
                         </div>
                     </div>

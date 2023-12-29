@@ -23,7 +23,8 @@ header{
                 width: 95%;
             }
             @media screen and (max-width: 575px){
-                width: 35%;
+                // width: 35%;
+                width: 105px;
             }
         }
     }
@@ -66,7 +67,7 @@ header{
             background: transparent;
             padding: 8px 13px;
             // border-radius: 12px;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             
             border-bottom: 1px solid #272527;
             
@@ -74,6 +75,26 @@ header{
                 display: block;
             }
 
+        }
+
+    }
+
+    .iconosMenu{
+        display: flex;
+        gap: 25px;
+        
+        @media (width <= 600px) {
+            gap: 15px;
+        }
+
+        a{
+            img{
+                width: 35px;
+                
+                @media (width <= 600px) {
+                    width: 40px;
+                }
+            }
         }
     }
 

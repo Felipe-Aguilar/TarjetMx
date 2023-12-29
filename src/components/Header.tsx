@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 
 import Logo from '../assets/logo-tarjet.svg';
 import LogoMobile from '../assets/logo-tarjet.svg';
+import LogoBuscador from '../assets/entrada-buscador-persona.svg';
+import LogoBolsa from '../assets/icono-bolsa-ventas-tarjet.svg';
 
 const Header = () => {
 
@@ -34,6 +36,16 @@ const Header = () => {
                         </div>
 
                         <div className='menu'>
+
+                            <div className='iconosMenu'>
+                                <a href="https://tarjet.site/#/directorio-tarjet">
+                                    <img src={LogoBuscador} alt="Lupa para búsqueda en directorio tarjet" />
+                                </a>
+                                <a href="https://shop.tarjet.mx/">
+                                    <img src={LogoBolsa} alt="Lupa para búsqueda en directorio tarjet" />
+                                </a>
+                            </div>
+
                             <div className='links'>
                                 <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
                                 <a onClick={()=>navigate('/empresas')}>Empresas</a>
@@ -60,6 +72,15 @@ const Header = () => {
                         <div className='logo'>
                             <a onClick={()=>navigate('/acerca-tarjet')}>
                                 <img src={ LogoMobile } alt="Tarjet | Tu tarjeta de presentación digital" className='img-fluid'/>
+                            </a>
+                        </div>
+
+                        <div className='iconosMenu'>
+                            <a href="https://tarjet.site/#/directorio-tarjet">
+                                <img src={LogoBuscador} alt="Lupa para búsqueda en directorio tarjet" />
+                            </a>
+                            <a href="https://shop.tarjet.mx/">
+                                <img src={LogoBolsa} alt="Lupa para búsqueda en directorio tarjet" />
                             </a>
                         </div>
 

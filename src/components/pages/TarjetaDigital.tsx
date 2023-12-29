@@ -60,7 +60,7 @@ const TarjetaDigital = () => {
 
     return ( 
         <>
-            <div className='container-fluid TarjetaDigital tarjeta'>
+            <div className='container-fluid TarjetaDigital tarjeta' id="section1">
                 <div className='cuerpo d-none d-lg-block'>
                     <div className='block1'>
                         <div className='w-50'>
