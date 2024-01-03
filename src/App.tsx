@@ -8,6 +8,7 @@ import AvisoPrivacidad from './components/pages/AvisoPrivacidad';
 import Premium from './components/Premium/Premium';
 import Empresas from './components/Empresas/Empresas';
 import HomeRedirect from './components/HomeRedirect';
+import Landing from './components/Landing/Landing';
 
 const App = () => {
   return ( 
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/aviso-de-privacidad' element={<AvisoPrivacidad />}/>
         <Route path='/hazte-premium' element={<Premium />}/>
         <Route path='/empresas' element={<Empresas />}/>
+        <Route path='/landing-one' element={<Landing />}/>
       </Routes>
       <Footer />
     </>

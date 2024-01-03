@@ -1,0 +1,466 @@
+$Violeta: #D0CCE8;
+$Naranja: #E66101;
+$Amarillo: #FF9E00;
+
+.Landing{
+    width: 80%;
+    display: block;
+    margin: auto;
+
+    @media (width <=700px) {
+        width: 100%;
+    }
+    
+    
+    .FirstBlock{
+        margin-top:  68.4px;
+        background: $Violeta;
+        padding: 20px;
+
+        @media (width <= 700px) {
+            padding: 40px 20px;
+        }
+
+        .Flex{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @media (width <= 700px) {
+                justify-content: space-between;
+            }
+
+            h1,h2,h3{
+                text-align: center;
+
+                @media (width <= 700px) {
+                    text-align: left;
+                }
+            }
+
+            h1{
+                font-weight: 400;
+
+                @media (width <= 700px) {
+                    font-size: 2rem;
+                }
+            }
+            h3{
+                @media (width <= 700px) {
+                    font-size: 1.5rem;
+                    margin-top: 2rem;
+                }
+            }
+            h2{
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #104531;
+
+                @media (width <= 700px) {
+                    font-size: 1.8rem;
+                }
+            }
+
+            .container1{
+                width: auto;
+
+                @media (width <= 700px) {
+                    width: 50%;
+                }
+            }
+            .container2{
+                width: 25%;
+                
+                @media (width <= 700px) {
+                    width: 50%;
+                }
+            }
+
+            img{
+                width: 80%;
+
+                @media (width <= 700px) {
+                    width: 100%;
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+
+        .infoIcons{
+            margin-top: 20px;
+            width: max-content;
+            display: block;
+            margin: auto;
+
+            > * + * {
+                margin-top: 15px;
+            }
+
+            @media (width <= 700px) {
+                width: 100%;
+                margin-top: 30px;
+            }
+
+            .info{
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+                img{
+                    width: 60px;
+                }
+                h5{
+                    margin-bottom: 0;
+                    font-weight: 700;
+                }
+                p{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .buttonIllustration{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+        img{
+            width: 150px;
+        }
+
+        a{
+            color: #fff;
+            background: #8FB814;
+            padding: 20px 40px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 700;
+
+            @media (width <= 700px) {
+                padding: 10px 20px;
+                text-align: center;
+            }
+        }
+    }
+
+    .secondBlock{
+        background: $Violeta;
+        padding: 20px;
+
+        @media (width <= 700px) {
+            padding: 40px 20px;
+        }
+
+        .infoIcon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+            img{
+                width: 60px;
+            }
+
+            h5{
+                margin-bottom: 0;
+                font-weight: 700;
+            }
+            p{
+                margin-bottom: 0;
+                width: 400px;
+
+                @media (width <= 700px) {
+                    width: auto;
+                }
+            }
+        }
+        .ilustration{
+            padding: 20px 0;
+
+            img{
+                width: 500px;
+                display: block;
+                margin: auto;
+
+                @media (width <= 700px) {
+                    width: 100%;
+                }
+            }
+        }
+        .infoText{
+            text-align: center;
+            h4{
+                color: $Naranja;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .blockBlack{
+        background: #000;
+        padding: 40px 20px;
+
+        .title{
+            text-align: center;
+
+            h3{
+                color: $Amarillo;
+            }
+            h5{
+                color: #fff;
+            }
+        }
+        .info{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+            gap: 10px;
+
+            .Block1{
+                width: auto;
+                > * + *{
+                    margin-top: 80px;
+                }
+
+                @media (width <= 700px) {
+                    width: 40%;
+                }
+
+                h5{
+                    color: #fff;
+                    text-align: right;
+
+                    @media (width <= 700px) {
+                        font-size: 1.1rem;
+                    }
+                }
+
+                .infoIcons{
+                    display: flex;
+                    text-align: center;
+                    justify-content: end;
+                    gap: 50px;
+
+                    @media (width <= 700px) {
+                        gap: 0;
+                        justify-content: space-between;
+                    }
+
+                    img{
+                        width: 60px;
+                        margin-bottom: 5px;
+                    }
+                    h5{
+                        color: #fff;
+                        font-size: 1rem;
+                        text-align: center;
+                    }
+                }
+            }
+            .Block2{
+                width: 25%;
+
+                @media (width <= 700px) {
+                    width: 60%;
+                }
+
+                img{
+                    width: 80%;
+
+                    @media (width <= 700px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .actions{
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            gap: 20px;
+            padding: 40px 0;
+
+            @media (width <= 700px) {
+                gap: 0;
+                justify-content: space-between;
+            }
+
+            div{
+                width: 100px;
+            }
+            img{
+                width: 60%;
+                display: block;
+                margin: auto;
+            }
+            h6{
+                color: #fff;
+                text-align: center  ;
+            }
+        }
+        .redesSociales{
+            img{
+                width: 300px;
+                display: block;
+                margin: auto;
+
+                @media (width <= 700px) {
+                    width: 70%;
+                }
+            }
+            h5{
+                text-align: center;
+                color: #fff;
+            }
+        }
+
+        .Ilustration{
+            padding: 40px 0 0 0;
+
+            h4{
+                text-align: center;
+                color: #fff;
+                width: 60%;
+                display: block;
+                margin: auto;
+                font-size: 1.3rem;
+
+                @media (width <= 700px) {
+                    width: 100%;
+                }
+            }
+            img{
+                width: 30%;
+                display: block;
+                margin: auto;
+
+                @media (width <= 700px) {
+                    width: 100%;
+                }
+            }
+        }
+
+        .infoFooter{
+
+            h4{
+                text-align: center;
+                color: $Amarillo;
+            }
+            .container{
+                width: 40%;
+                display: block;
+                margin: auto;
+
+                > * + * {
+                    margin-top: 20px;
+                }
+
+                @media (width <= 700px) {
+                    width: 100%;
+                }
+
+                .info{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 40px;
+
+                    @media (width <= 700px) {
+                        gap: 0;
+                        justify-content: space-between;
+                    }
+                    
+                    img{
+                        width: 60px;
+                    }
+
+                    h6,p{
+                        color: #fff;
+                    }
+                    h6{
+                        font-weight: bold;
+                    }
+                    p{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .inscribete{
+                margin-top: 40px;
+
+                h2,h5,h6{
+                    text-align: center;
+                    color: #fff;
+                }
+                h2{
+                    color: $Naranja;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                h5{
+                    color: $Naranja;
+                }
+            }
+        }
+    }
+    .imageNFC{
+        img{
+            width: 50%;
+            display: block;
+            margin: auto;
+
+            @media (width <= 700px) {
+                width: 100%;
+            }
+        }
+    }
+    .visita{
+        padding: 40px 20px;
+
+        h5{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #0C1C2A;
+
+            span{
+                text-transform: lowercase;
+            }
+        }
+
+        img{
+            width: 15%;
+            display: block;
+            margin: auto;
+            padding: 20px 0;
+
+            @media (width <= 700px) {
+                width: 50%;
+            }
+        }
+
+        .siguenos{
+            text-transform: none;
+            font-weight: 300;
+            color: #00193C;
+        }
+
+        .social{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            i{
+                font-size: 2rem;
+                color: #5D5D5C;
+            }
+        }
+    }
+}
