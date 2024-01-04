@@ -127,9 +127,16 @@ $Amarillo: #FF9E00;
         align-items: center;
         justify-content: center;
         gap: 40px;
+        position: sticky;
+        top: 60px;
+        background: #fff;
 
         img{
             width: 150px;
+
+            @media (width <= 700px) {
+                width: 100px;
+            }
         }
 
         a{
@@ -143,6 +150,7 @@ $Amarillo: #FF9E00;
             @media (width <= 700px) {
                 padding: 10px 20px;
                 text-align: center;
+                font-size: 0.8rem;
             }
         }
     }
