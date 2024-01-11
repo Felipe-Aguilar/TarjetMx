@@ -1,3 +1,7 @@
+import { useEffect } from 'react';
+import ReactGA from 'react-ga';
+import generatePixel from "../../pixel";
+
 import CelularImage from '../../assets/im-directorio-01.png';
 import IconoPersonalizado from '../../assets/icono-personalizado.svg';
 import IconoBuscador from '../../assets/icono-buscador.svg';
@@ -21,8 +25,25 @@ import TarjetaNFC from '../../assets/im-tarjetanfc.webp';
 import Tarjet from '../../assets/icono-tarjet.svg';
 
 const Landing = () => {
+
+    ReactGA.initialize('G-MMCF7P3JG8');
+
+    const pixelCode = generatePixel('1219665732284488', 'https://tarjet.mx/');
+
+    useEffect(()=>{
+
+        // Establece el título de la página
+        ReactGA.set({ page: window.location.pathname });
+        // Envia una página vista al cargar el componente
+        ReactGA.pageview(window.location.pathname);
+    }, []);
+
     return ( 
         <div className="Landing">
+
+            <noscript>
+                {pixelCode}
+            </noscript>
 
             <div className="FirstBlock">
                 <div className="Flex">

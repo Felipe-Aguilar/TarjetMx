@@ -10,7 +10,7 @@ const BannerPrincipal = () => {
             <div className="container-fluid bannerVideo">
                 <div className='video'>
                     <video autoPlay muted loop>
-                        <source src={VideoBanner}/>
+                        <source src={VideoBanner} type="video/mp4" />
                     </video>
 
                     <div className='contenido'>

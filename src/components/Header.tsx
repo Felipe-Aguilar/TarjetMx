@@ -75,16 +75,16 @@ const Header = () => {
                             </a>
                         </div>
 
-                        <div className='iconosMenu'>
-                            <a href="https://tarjet.site/#/directorio-tarjet">
-                                <img src={LogoBuscador} alt="Lupa para búsqueda en directorio tarjet" />
-                            </a>
-                            <a href="https://shop.tarjet.mx/">
-                                <img src={LogoBolsa} alt="Lupa para búsqueda en directorio tarjet" />
-                            </a>
-                        </div>
 
                         <div className='menu'>
+                            <div className='iconosMenu'>
+                                <a href="https://tarjet.site/#/directorio-tarjet">
+                                    <img src={LogoBuscador} alt="Lupa para búsqueda en directorio tarjet" />
+                                </a>
+                                <a href="https://shop.tarjet.mx/">
+                                    <img src={LogoBolsa} alt="Lupa para búsqueda en directorio tarjet" />
+                                </a>
+                            </div>
                             <button className='mobileMenu' onClick={()=>setButton(!button)}>
                                 { !button ?
                                     <>
