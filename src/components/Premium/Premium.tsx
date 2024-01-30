@@ -3,6 +3,8 @@ import Slider from 'react-slick';
 import premiumBasico from '../../assets/premium-basico.png';
 import premium1 from '../../assets/premium1.png';
 import premium2 from '../../assets/premium2.png';
+import institucional1 from '../../assets/institucional1.png';
+import institucional2 from '../../assets/institucional2.png';
 import FlechaIzquierda from '../../assets/flecha-izquierda.svg';
 import FlechaDerecha from '../../assets/flecha-derecha.svg';
 
@@ -55,10 +57,7 @@ const Premium = () => {
                     Básica y gratuita
                 </button>
                 <button>
-                    Premium 1
-                </button>
-                <button>
-                    Premium 2
+                    Premium
                 </button>
             </div>
 
@@ -68,10 +67,13 @@ const Premium = () => {
                         Básica y gratuita
                     </button>
                     <button>
-                        Premium 1
+                        Premium
                     </button>
                     <button>
-                        Premium 2
+                        Institucional 1
+                    </button>
+                    <button>
+                        Institucional 2
                     </button>
                 </div>
             </div>
@@ -87,11 +89,11 @@ const Premium = () => {
                             <img src={premiumBasico}/>
                         </div>
                         <ul>
-                            <li>Diseño de nuestra galería básica</li>
-                            <li>Espacio para 3 servicios</li>
-                            <li>Espacio para 3 imágenes</li>
+                            <li>Diseños de nuestra galería inicial</li>
+                            <li>Espacio para 4 servicios</li>
+                            <li>Espacio para 4 imágenes</li>
                             <li>Todas las opciones de contacto</li>
-                            <li>Rango de poder ser encontrado en directorio de hasta 3 kms a la redonda</li>
+                            <li>Rango de poder ser encontrado en directorio de hasta 5 kms a la redonda</li>
                         </ul>
                     </div>
 
@@ -102,7 +104,7 @@ const Premium = () => {
 
                 <div className='plan'>
                     <div className='encabezado'>
-                        <h3>Premium 1</h3>
+                        <h3>Premium</h3>
                     </div>
 
                     <div className='cuerpo'>
@@ -112,12 +114,12 @@ const Premium = () => {
                         <ul>
                             <li>Diseño premium de TarjetaDigital</li>
                             <li>Diseño premium de encabezado</li>
-                            <li>Más espacio para imágenes (7)</li>
-                            <li>Más espacio para servicios (7)</li>
+                            <li>Más espacio para imágenes (10)</li>
+                            <li>Más espacio para servicios (10)</li>
                             <li>Espacio para 1 video</li>
                             <li>Amplio rango de búsqueda en directorio hasta nivel nacional</li>
                             <li>Métricas y estadísticas de uso</li>
-                            <li>10% descuento en la compra de productos tarjet durante todo el año</li>
+                            <li>10% descuento en la compra de productos tarjet durante todo el plan</li>
                         </ul>
                     </div>
 
@@ -151,47 +153,109 @@ const Premium = () => {
                     </div>
                 </div>
 
+            </div>
+
+            <div className="btns mt-5">
+                <button className='primer'>
+                    Institucional 1
+                </button>
+                <button>
+                    Institucional 2
+                </button>
+            </div>
+
+            <div className='planes'>
                 <div className='plan'>
                     <div className='encabezado'>
-                        <h3>Premium 2</h3>
+                        <h3>Institucional 1</h3>
                     </div>
 
                     <div className='cuerpo'>
                         <div className='img'>
-                            <img src={premium2}/>
+                            <img src={institucional1}/>
                         </div>
                         <ul>
-                            <li>Diseño premium de TarjetaDigital</li>
-                            <li>Diseño premium de encabezado</li>
-                            <li>Más espacio para imágenes (12)</li>
-                            <li>Más espacio para servicios (12)</li>
-                            <li>Espacio para 1 video</li>
+                            <li>Landing page de la empresa / institución</li>
+                            <li>Diseño personalizado Tarjeta y Encabezado</li>
+                            <li>Nosotros creamos tu Tarjet y entregamos los datos de acceso</li>
                             <li>Amplio rango de búsqueda en directorio hasta nivel nacional</li>
+                            <li>Hasta 9 empleados</li>
+                            <li>Alta y baja de usuarios sin límite</li>
+                            <li>10% de descuento en la compra de productos tarjet</li>
                             <li>Métricas y estadísticas de uso</li>
-                            <li>Ecommerce (espacio para vender servicios, apartar citas, etc) 6 servicios</li>
                         </ul>
                     </div>
 
                     <div className='footer-b'>
-                        <div className='buttons'>
+                        {/* <div className='buttons'>
                             <h6>Costo por mes</h6>
                             <span className=' d-block font-weight-bold text-center'>
                                 $60.00 mxn. 
                             </span>
-                            {/* <a href="https://shop.tarjet.mx/">
+                            <a href="https://shop.tarjet.mx/">
                                 <span>
                                     $60.00 mxn. 
                                 </span>
                                 <span>
                                     Comprar
                                 </span>
-                            </a> */}
-                        </div>
+                            </a>
+                        </div> */}
                         <div className='buttons buttons-b'>
                             <h6>Costo por año</h6>
                             <a href="https://shop.tarjet.mx/">
                                 <span>
-                                    $720.00 mxn. 
+                                    $790.00 mxn. 
+                                </span>
+                                <span>
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div className='plan'>
+                    <div className='encabezado'>
+                        <h3>Institucional 2</h3>
+                    </div>
+
+                    <div className='cuerpo'>
+                        <div className='img'>
+                            <img src={institucional2}/>
+                        </div>
+                        <ul>
+                            <li>Landing page de la empresa / institución</li>
+                            <li>Diseño personalizado Tarjeta y Encabezado</li>
+                            <li>Nosotros creamos tu Tarjet y entregamos los datos de acceso</li>
+                            <li>Amplio rango de búsqueda en directorio hasta nivel nacional</li>
+                            <li>Hasta 19 empleados</li>
+                            <li>Alta y baja de usuarios sin límite</li>
+                            <li>10% de descuento en la compra de productos tarjet</li>
+                            <li>Métricas y estadísticas de uso</li>
+                        </ul>
+                    </div>
+
+                    <div className='footer-b'>
+                        {/* <div className='buttons'>
+                            <h6>Costo por mes</h6>
+                            <span className=' d-block font-weight-bold text-center'>
+                                $60.00 mxn. 
+                            </span>
+                            <a href="https://shop.tarjet.mx/">
+                                <span>
+                                    $60.00 mxn. 
+                                </span>
+                                <span>
+                                    Comprar
+                                </span>
+                            </a>
+                        </div> */}
+                        <div className='buttons buttons-b'>
+                            <h6>Costo por año</h6>
+                            <a href="https://shop.tarjet.mx/">
+                                <span>
+                                    $990.00 mxn. 
                                 </span>
                                 <span>
                                     Comprar
@@ -215,11 +279,11 @@ const Premium = () => {
                                 <img src={premiumBasico}/>
                             </div>
                             <ul>
-                                <li>Diseño de nuestra galería básica</li>
-                                <li>Espacio para 3 servicios</li>
-                                <li>Espacio para 3 imágenes</li>
+                                <li>Diseño de nuestra galería inicial</li>
+                                <li>Espacio para 4 servicios</li>
+                                <li>Espacio para 4 imágenes</li>
                                 <li>Todas las opciones de contacto</li>
-                                <li>Rango de poder ser encontrado en directorio de hasta 3 kms a la redonda</li>
+                                <li>Rango de poder ser encontrado en directorio de hasta 5 kms a la redonda</li>
                             </ul>
                         </div>
 
@@ -230,7 +294,7 @@ const Premium = () => {
 
                     <div className='plan'>
                         <div className='encabezado'>
-                            <h3>Premium 1</h3>
+                            <h3>Premium</h3>
                         </div>
 
                         <div className='cuerpo'>
@@ -240,8 +304,8 @@ const Premium = () => {
                             <ul>
                                 <li>Diseño premium de TarjetaDigital</li>
                                 <li>Diseño premium de encabezado</li>
-                                <li>Más espacio para imágenes (7)</li>
-                                <li>Más espacio para servicios (7)</li>
+                                <li>Más espacio para imágenes (10)</li>
+                                <li>Más espacio para servicios (10)</li>
                                 <li>Espacio para 1 video</li>
                                 <li>Amplio rango de búsqueda en directorio hasta nivel nacional</li>
                                 <li>Métricas y estadísticas de uso</li>
@@ -281,45 +345,96 @@ const Premium = () => {
 
                     <div className='plan'>
                         <div className='encabezado'>
-                            <h3>Premium 2</h3>
+                            <h3>Institucional 1</h3>
                         </div>
 
                         <div className='cuerpo'>
                             <div className='img'>
-                                <img src={premium2}/>
+                                <img src={institucional1}/>
                             </div>
                             <ul>
-                                <li>Diseño premium de TarjetaDigital</li>
-                                <li>Diseño premium de encabezado</li>
-                                <li>Más espacio para imágenes (12)</li>
-                                <li>Más espacio para servicios (12)</li>
-                                <li>Espacio para 1 video</li>
+                                <li>Landing page de la empresa / institución</li>
+                                <li>Diseño personalizado Tarjeta y Encabezado</li>
+                                <li>Nosotros creamos tu Tarjet y entregamos datos de acceso</li>
                                 <li>Amplio rango de búsqueda en directorio hasta nivel nacional</li>
+                                <li>Hasta 9 empleados</li>
+                                <li>Alta y baja de usuarios sin límite</li>
+                                <li>10% de descuento en la compra de productos tarjet</li>
                                 <li>Métricas y estadísticas de uso</li>
-                                <li>Ecommerce (espacio para vender servicios, apartar citas, etc) 6 servicios</li>
                             </ul>
                         </div>
 
                         <div className='footer-b'>
-                            <div className='buttons'>
+                            {/* <div className='buttons'>
                                 <h6>Costo por mes</h6>
                                 <span className=' d-block font-weight-bold text-center'>
                                     $60.00 mxn. 
                                 </span>
-                                {/* <a href="https://shop.tarjet.mx/">
+                                <a href="https://shop.tarjet.mx/">
                                     <span>
                                         $60.00 mxn. 
                                     </span>
                                     <span>
                                         Comprar
                                     </span>
-                                </a> */}
-                            </div>
+                                </a>
+                            </div> */}
                             <div className='buttons buttons-b'>
                                 <h6>Costo por año</h6>
                                 <a href="https://shop.tarjet.mx/">
                                     <span>
-                                        $720.00 mxn. 
+                                        $790.00 mxn. 
+                                    </span>
+                                    <span>
+                                        Comprar
+                                    </span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div className='plan'>
+                        <div className='encabezado'>
+                            <h3>Institucional 2</h3>
+                        </div>
+
+                        <div className='cuerpo'>
+                            <div className='img'>
+                                <img src={institucional2}/>
+                            </div>
+                            <ul>
+                                <li>Landing page de la empresa / institución</li>
+                                <li>Diseño personalizado Tarjeta y Encabezado</li>
+                                <li>Nosotros creamos tu Tarjet y entregamos datos de acceso</li>
+                                <li>Amplio rango de búsqueda en directorio hasta nivel nacional</li>
+                                <li>Hasta 19 empleados</li>
+                                <li>Alta y baja de usuarios sin límite</li>
+                                <li>10% de descuento en la compra de productos tarjet</li>
+                                <li>Métricas y estadísticas de uso</li>
+                            </ul>
+                        </div>
+
+                        <div className='footer-b'>
+                            {/* <div className='buttons'>
+                                <h6>Costo por mes</h6>
+                                <span className=' d-block font-weight-bold text-center'>
+                                    $60.00 mxn. 
+                                </span>
+                                <a href="https://shop.tarjet.mx/">
+                                    <span>
+                                        $60.00 mxn. 
+                                    </span>
+                                    <span>
+                                        Comprar
+                                    </span>
+                                </a>
+                            </div> */}
+                            <div className='buttons buttons-b'>
+                                <h6>Costo por año</h6>
+                                <a href="https://shop.tarjet.mx/">
+                                    <span>
+                                        $990.00 mxn. 
                                     </span>
                                     <span>
                                         Comprar

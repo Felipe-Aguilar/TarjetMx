@@ -13,10 +13,10 @@ const Header = () => {
 
     const navigate = useNavigate();
 
-    const navigateEmpresas = () => {
-        navigate('/empresas');
-        setButton(false);
-    }
+    // const navigateEmpresas = () => {
+    //     navigate('/empresas');
+    //     setButton(false);
+    // }
 
     const navigatePremium = () => {
         navigate('/hazte-premium');
@@ -48,8 +48,8 @@ const Header = () => {
 
                             <div className='links'>
                                 <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
-                                <a onClick={()=>navigate('/empresas')}>Empresas</a>
-                                <a onClick={()=>navigate('/hazte-premium')}>Premium</a>
+                                <a href='https://tarjet.site/empresas'>Empresas</a>
+                                <a onClick={()=>navigate('/hazte-premium')}>Planes</a>
                                 {/* <a href="https://tarjet.site/#/login">Mi sesión</a> */}
                                 <a href="https://tarjet.site/#/login">Mi Tarjetero</a>
                                 <a onClick={()=>navigate('/acerca-tarjet')}>Acerca de Tarjet</a>
@@ -111,8 +111,8 @@ const Header = () => {
                         >
                             <div className='links'>
                                 <a href="https://shop.tarjet.mx/" target='_blank'>Tienda</a>
-                                <a onClick={navigateEmpresas}>Empresas</a>
-                                <a onClick={navigatePremium}>Premium</a>
+                                <a href='https://tarjet.site/empresas'>Empresas</a>
+                                <a onClick={navigatePremium}>Planes</a>
                                 {/* <a href="https://tarjet.site/#/login">Mi sesión</a> */}
                                 <a href="https://tarjet.site/#/login">Mi Tarjetero</a>
                                 <a onClick={()=>navigate('/acerca-tarjet')}>Acerca de Tarjet</a>

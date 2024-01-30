@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import ReactGA from 'react-ga';
-import generatePixel from "../../pixel";
 
 import CelularImage from '../../assets/im-directorio-01.png';
 import IconoPersonalizado from '../../assets/icono-personalizado.svg';
@@ -28,8 +27,6 @@ const Landing = () => {
 
     ReactGA.initialize('G-MMCF7P3JG8');
 
-    const pixelCode = generatePixel('1219665732284488', 'https://tarjet.mx/');
-
     useEffect(()=>{
 
         // Establece el título de la página
@@ -40,10 +37,6 @@ const Landing = () => {
 
     return ( 
         <div className="Landing">
-
-            <noscript>
-                {pixelCode}
-            </noscript>
 
             <div className="FirstBlock">
                 <div className="Flex">
