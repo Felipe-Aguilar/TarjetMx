@@ -10,310 +10,168 @@ $btnVerde: #3aaa35;
     padding: 40px 0;
     display: block;
     margin: auto;
-    margin-top:  68.4px;
-
-    @media (width <= 572px) {
+    margin-top: 3.5rem;
+    
+    @media (width <= 700px) {
+        margin-top: 4rem;
         width: 95%;
     }
 
-    h1{
+    .text{
         text-align: center;
-        font-weight: bold;
-        font-size: 1.3rem;
-        margin-bottom: 50px;
-
-        @media (width <= 572px) {
-            margin-bottom: 20px;
-        }
-    }
-
-    p{
-        text-align: center;
-    }
-
-    h2{
-        font-weight: bold;
-        text-align: center;
-        font-size: 1.2rem;
-        margin-top: 40px;
-    }
-
-    .btns{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 20px;
-
-        @media (width <= 572px) {
-            display: none;
-        }
-        @media (width < 834px) {
-            display: none;
-        }
-
-        button{
-            padding: 5px;
-            width: 150px;
-            border-radius: 8px;
+        h1{
             font-weight: bold;
-            border: transparent;
-            background: $btnDos;
-        }
-        .primer{
-            background: $btnUno;
+            font-size: 1.5rem;
         }
     }
 
-    .btnsMobile{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        gap: 20px;
-
-        // @media (width > 572px) {
-        //     display: none;
-        // }
-
-        @media (width > 834px) {
+    .banner{
+        width: 100%;
+        margin: 40px 0;
+        img{
+            width: 100%;
+        }
+        .bannerPMobile{
             display: none;
         }
 
-        div{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 50%;
-            margin: auto;
-
-            > * + * {
-                margin-top: 20px;
+        @media (width <= 700px) {
+            .bannerPMobile{
+                display: block;
+            }
+            .bannerPDesk{
+                display: none;
             }
         }
-
-        button{
-            padding: 5px;
-            width: 100%;
-            border-radius: 8px;
-            font-weight: bold;
-            border: transparent;
-            background: $btnDos;
-        }
-        .primer{
-            background: $btnUno;
-        }
-    }
-
+    }   
+        
     .planes{
         display: flex;
-        justify-content: space-around;
-        margin-top: 40px;
+        gap: 20px;
 
-        
-        @media (width <= 572px) {
-            display: none;
-        }
-
-        @media (width <= 834px) {
-            display: none;
+        @media (width <= 700px) {
+            flex-direction: column;
         }
 
         .plan{
-            width: 25%;
-            border-radius: 20px;
-            background: $cuerpoCard;
-        }
-        .encabezado{
-            background: $encabezado;
-            border-radius: 20px 20px 0 0;
-            padding: 20px;
+            width: 50%;
+            background: #e5e9e5;
+            padding: 40px;
+            border-radius: 35px;
             display: flex;
-            justify-content: center;
-            align-items: center;
 
-            h3{
-                margin-bottom: 0;
-                font-weight: bold;
-                font-size: 1.3rem;
-            }
-        }
-        .cuerpo{
-            padding: 20px;
-
-            .img{
+            @media (width <= 700px) {
                 width: 100%;
-                height: 200px;
-                margin-bottom: 20px;
+                flex-direction: column;
+            }
+
+            .first{
+                width: 30%;
+
+                @media (width <= 700px) {
+                    width: 100%;
+                }
 
                 img{
-                    max-width: 100%;
-                    height: 100%;
-                    display: block;
-                    margin: auto;
-                }
-            }
-
-            ul{
-                li{
+                    width: 100%;
                     margin-bottom: 10px;
+
+                    @media (width <= 700px) {
+                        width: 60%;
+                        display: block;
+                        margin: auto;
+                        margin-bottom: 10px;
+                    }
                 }
-            }
-        }
-
-        .footer{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            margin-top: auto;
-
-            h3{
-                margin-bottom: 0;
-                font-weight: bold;
-                font-size: 1.3rem;
-            }
-        }
-        .footer-b{
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-
-            > * + * {
-                margin-top: 20px;
-            }
-
-            .buttons{
-                h6{
+                span{
                     font-weight: bold;
+                    font-size: 1.8rem;
+                    display: block;
                     text-align: center;
+                    text-transform: uppercase;
                 }
-                a{
+
+                .price{
                     display: flex;
-                    justify-content: space-around;
-                    background: $btnAgua;
-                    padding: 10px;
-                    text-decoration: none;
-                    font-weight: bold;
-                    border-radius: 8px;
-    
-                    span{
-                        color: #fff;
+                    align-items: center;
+                    justify-content: center;
+                    height: 200px;
+                    flex-direction: column;
+                    position: relative;
+
+                    @media (width <= 700px) {
+                        height: auto;
+                        padding: 40px 0;
+                    }
+
+                    p{
+                        margin-bottom: 0;
+                        text-transform: uppercase;
+                        font-size: 0.9rem;
+                    }
+
+                    a{
+                        text-decoration: none;
+                        width: 100%;
+                        text-align: center;
+                        background: #6fb74c;
+                        padding: 10px 0;
+                        border-radius: 50px;
+                        color: #000;
+                        font-weight: bold;
+                        position: absolute;
+                        bottom: 0;
+
+                        @media (width <= 700px) {
+                            position: static;
+                            margin-top: 10px;
+                        }
                     }
                 }
             }
-            .buttons-b{
-                a{
-                    background: $btnVerde;
+            .second{
+                width: 70%;
+
+                @media (width <= 700px) {
+                    width: 100%;
                 }
-            }
-        }
-    }
 
-    .planesMobile{
-        margin-top: 40px;
-        // display: flex;
-        // justify-content: center;
-
-        @media (width > 834px) {
-            display: none;
-        }
-        // @media (width > 572px) {
-        //     display: none;
-        // }
-
-        .plan{
-            width: 90%!important;
-            height: 870px;
-            border-radius: 20px;
-            background: $cuerpoCard;
-            display: block!important;
-            margin: auto;
-        }
-        .encabezado{
-            background: $encabezado;
-            border-radius: 20px 20px 0 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            h3{
-                margin-bottom: 0;
-                font-weight: bold;
-                font-size: 1.3rem;
-            }
-        }
-        .cuerpo{
-            padding: 20px;
-
-            .img{
-                width: 100%;
-                height: 200px;
-                margin-bottom: 20px;
-
-                img{
-                    height: 100%;
+                span{
                     display: block;
-                    margin: auto;
-                }
-            }
-
-            ul{
-                li{
-                    margin-bottom: 10px;
-                }
-            }
-        }
-
-        .footer{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-
-            h3{
-                margin-bottom: 0;
-                font-weight: bold;
-                font-size: 1.3rem;
-            }
-        }
-        .footer-b{
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-
-            > * + * {
-                margin-top: 20px;
-            }
-
-            .buttons{
-                h6{
-                    font-weight: bold;
                     text-align: center;
-                }
-                a{
-                    display: flex;
-                    justify-content: space-around;
-                    background: $btnAgua;
-                    padding: 10px;
-                    text-decoration: none;
                     font-weight: bold;
-                    border-radius: 8px;
-    
-                    span{
-                        color: #fff;
+                    text-transform: uppercase;
+                    font-size: 1.1rem;
+                }
+
+                ul{
+                    margin-top: 20px;
+                    margin-left: 40px;
+
+                    @media (width <= 700px) {
+                        margin-left: 0;
+                    }
+
+                    > * + * {
+                        margin-top: 15px;
+                    }
+
+                    li{
+                        list-style: none;
                     }
                 }
             }
-            .buttons-b{
-                a{
-                    background: $btnVerde;
-                }
-            }
         }
-        .slick-prev {
-            left: 0;
+
+        .premium{
+            background: #d5e3e3;
         }
-        .slick-next {
-            right: 0;
+        .empresarial1{
+            background: #ded3ea;
+        }
+        .empresarial2{
+            background: #cbdeee;
         }
     }
+
 }
