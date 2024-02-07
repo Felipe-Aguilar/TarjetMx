@@ -25,6 +25,16 @@ $btnVerde: #3aaa35;
         }
     }
 
+    .text-empresarial{
+        text-align: center;
+        margin-bottom: 40px;
+
+        h2{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+
     .banner{
         width: 100%;
         margin: 40px 0;
@@ -85,7 +95,7 @@ $btnVerde: #3aaa35;
                 }
                 span{
                     font-weight: bold;
-                    font-size: 1.8rem;
+                    font-size: 1.5rem;
                     display: block;
                     text-align: center;
                     text-transform: uppercase;
@@ -125,6 +135,18 @@ $btnVerde: #3aaa35;
                         @media (width <= 700px) {
                             position: static;
                             margin-top: 10px;
+                        }
+                    }
+
+                    .mensual{
+                        margin-bottom: 15px;
+                        p{
+                            font-size: 0.7rem;
+                            text-align: center;
+                        }
+                        span{
+                            font-weight: 400;
+                            font-size: 1.2rem;
                         }
                     }
                 }

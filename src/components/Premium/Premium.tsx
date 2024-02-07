@@ -14,8 +14,8 @@ const Premium = () => {
         <div className="container-fluid Premium">
 
             <div className='text'>
-                <h1>Conoce nuestros planes</h1>
-                <p>
+                <h1>Planes Premium</h1>
+                {/* <p>
                     ¡Bienvenido al siguiente nivel de conectividad y organización!
                 </p>
                 <p>
@@ -26,7 +26,7 @@ const Premium = () => {
                 </p>
                 <p>
                     ¡Prepárate para transformar la manera en que te conectas y creces profesionalmente!
-                </p>
+                </p> */}
             </div>
 
             <div className='banner'>
@@ -64,8 +64,13 @@ const Premium = () => {
 
                         <div className='price'>
 
+                            <div className='mensual'>
+                                <p>costo mensual</p>
+                                <span>$35.00 mxm.</span>
+                            </div>
+
                             <p>costo anual</p>
-                            <span>$300.00 mxn.</span>
+                            <span>$420.00 mxn.</span>
 
                             <a href="https://shop.tarjet.mx/" target='_blank'>
                                 Comprar
@@ -92,6 +97,10 @@ const Premium = () => {
             <div className='banner'>
                 <img src={BannerEmpresarial} alt="Banner sé premium" className='bannerPDesk'/>
                 <img src={BannerEmpresarialMobile} alt="Banner sé premium" className='bannerPMobile'/>
+            </div>
+
+            <div className='text-empresarial'>
+                <h2>Planes Empresarial</h2>
             </div>
 
             <div className='planes'>
