@@ -27,7 +27,7 @@ const Footer = () => {
                 <a onClick={()=>navigate('/aviso-de-privacidad')}>Aviso de Privacidad</a>
                 {/* <a href="#">Facturación</a> */}
                 <a href="https://wa.me/5586763895">Contacto</a>
-                <a href="#">Tarjet para Partners</a>
+                <a href="https://tarjet.site/#/login-partners">Tarjet para Partners</a>
             </div>
         </footer>
     );
