@@ -69,7 +69,7 @@ const Premium = () => {
                                 <span>$35.00 mxm.</span>
                             </div>
 
-                            <p>costo anual</p>
+                            <p>pago anual</p>
                             <span>$420.00 mxn.</span>
 
                             <a href="https://shop.tarjet.mx/" target='_blank'>
