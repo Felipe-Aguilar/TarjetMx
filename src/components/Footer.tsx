@@ -21,12 +21,13 @@ const Footer = () => {
             </div>
 
             <div className='nav'>
-                <a href="#">Política de Envío</a>
+                {/* <a href="#">Política de Envío</a>
                 <a href="#">Términos y Condiciones</a>
-                <a href="#">Política de Devoluciones</a>
+                <a href="#">Política de Devoluciones</a> */}
                 <a onClick={()=>navigate('/aviso-de-privacidad')}>Aviso de Privacidad</a>
-                <a href="#">Facturación</a>
+                {/* <a href="#">Facturación</a> */}
                 <a href="https://wa.me/5586763895">Contacto</a>
+                <a href="https://tarjet.site/#/login-partners">Tarjet para Partners</a>
             </div>
         </footer>
     );
