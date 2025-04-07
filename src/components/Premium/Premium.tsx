@@ -110,8 +110,8 @@ const Premium = () => {
                         <span>Empresarial 1</span>
 
                         <div className='price'>
-                            <p>costo anual</p>
-                            <span>$790.00 mxn.</span>
+                            <p>Costo Anual</p>
+                            <span>$1,200.00 mxn.</span>
 
                             <a href="https://shop.tarjet.mx/" target='_blank'>
                                 Comprar
@@ -141,8 +141,8 @@ const Premium = () => {
 
                         <div className='price'>
 
-                            <p>costo anual</p>
-                            <span>$990.00 mxn.</span>
+                            <p>Costo Anual</p>
+                            <span>$2,900.00 mxn.</span>
 
                             <a href="https://shop.tarjet.mx/" target='_blank'>
                                 Comprar
